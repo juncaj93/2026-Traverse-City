@@ -87,11 +87,9 @@ Maps: https://www.google.com/maps/search/?api=1&query=14039+Peninsula+Dr%2C+Trav
 | 9:30–10:00 AM | Coffee/pastry, Old Mission General Store |
 | 10:15–11:15 AM | Old Mission Lighthouse Park |
 | 11:30 AM–1:00 PM | Haserot Beach (grab lunch at the General Store first, or pack something) |
-| 1:15–1:35 PM | Scenic overlook, Center Rd (M-37) |
-| 1:50–2:35 PM | Hawthorne Vineyards tasting |
-| 2:50–3:35 PM | Bowers Harbor Vineyards tasting |
-| 3:35–4:00 PM | Bowers Harbor Park — quick walk |
-| 4:00–6:30 PM | Drive back, freshen up, relax |
+| 1:30–2:15 PM | Hawthorne Vineyards tasting |
+| 2:30–3:15 PM | Bowers Harbor Vineyards tasting |
+| 3:15–6:30 PM | Drive back, freshen up, relax |
 | **7:15 PM — confirmed** | **Dinner: Trattoria Stella** |
 
 - **Old Mission General Store** — 160-year-old country store with an
@@ -109,11 +107,6 @@ Maps: https://www.google.com/maps/search/?api=1&query=14039+Peninsula+Dr%2C+Trav
   street address is published; reached via Center Rd → Old Mission Rd →
   Mission Rd → Swaney Rd, near the General Store.
   Maps (by name): https://www.google.com/maps/search/?api=1&query=Haserot+Beach+Park%2C+Old+Mission+Peninsula%2C+MI
-- **Scenic overlook, Center Rd (M-37)** — a roadside pull-off just north of
-  Bonobo Winery, looking out over both West and East Grand Traverse Bay at
-  once. No formal address (it's a pull-off, not a business); Bonobo Winery
-  itself is at 12011 Center Rd as the nearest landmark.
-  Maps (landmark): https://www.google.com/maps/search/?api=1&query=Bonobo+Winery%2C+12011+Center+Rd%2C+Traverse+City%2C+MI+49685
 - **Hawthorne Vineyards** — small boutique room on a ridge overlooking
   both bays. 1000 Camino Maria Dr, Traverse City, MI 49686 ·
   (231) 929-4206 · Sun–Thu 11–6, Fri–Sat 11–7 · walk-ins fine
@@ -123,12 +116,6 @@ Maps: https://www.google.com/maps/search/?api=1&query=14039+Peninsula+Dr%2C+Trav
   2896 Bowers Harbor Rd, Traverse City, MI 49686 · (231) 223-7615 ·
   Sun–Thu 11–6, Fri–Sat 11–7 · walk-ins fine
   Maps: https://www.google.com/maps/search/?api=1&query=2896+Bowers+Harbor+Rd%2C+Traverse+City%2C+MI+49686
-- **Bowers Harbor Park** — right next door to the vineyard; a paved
-  shoreline trail looking out at Power Island. Also has ball fields and a
-  playground, so that end draws the crowd — the water-side trail tends to
-  be quiet.
-  2750 Bowers Harbor Rd, Traverse City, MI 49686
-  Maps: https://www.google.com/maps/search/?api=1&query=2750+Bowers+Harbor+Rd%2C+Traverse+City%2C+MI+49686
 - **Trattoria Stella** — locals' farm-to-table Italian in the historic
   Village at Grand Traverse Commons, off the touristy Front St strip.
   830 Cottageview Dr Ste G01, Traverse City, MI 49684 · (231) 929-8989
@@ -146,8 +133,6 @@ Local trip in Michigan — just 911 for any emergency, no separate contact list 
 ## Sources checked
 - Jolly Pumpkin (Old Mission Peninsula) — traversecity.com listing, Yelp
 - Boathouse Restaurant — traversecity.com listing, Yelp, boathouseonwestbay.com
-- Bonobo Winery (landmark for the Center Rd overlook) — Yelp
-- Bowers Harbor Park — traversecity.com listing, Peninsula Township
 - Bowers Harbor Vineyards — bowersharbor.com, Yelp, traversecity.com
 - Hawthorne Vineyards — hawthornevineyards.com, traversecity.com, Yelp
 - Trattoria Stella — traversecity.com, Yelp, michigan.org

@@ -104,15 +104,8 @@ export const itinerary: ItineraryItem[] = [
         mapsUrl: "https://www.google.com/maps/search/?api=1&query=Haserot+Beach+Park%2C+Old+Mission+Peninsula%2C+MI",
       },
       {
-        name: "Scenic overlook, Center Rd",
-        time: "1:15 pm",
-        note: "Both bays at once",
-        description: "Pull-off near Bonobo Winery",
-        mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bonobo+Winery%2C+12011+Center+Rd%2C+Traverse+City%2C+MI+49685",
-      },
-      {
         name: "Hawthorne Vineyards",
-        time: "1:50 pm",
+        time: "1:30 pm",
         note: "Walk-ins fine",
         phone: "(231) 929-4206",
         description: "Ridge overlooking both bays",
@@ -120,18 +113,11 @@ export const itinerary: ItineraryItem[] = [
       },
       {
         name: "Bowers Harbor Vineyards",
-        time: "2:50 pm",
+        time: "2:30 pm",
         note: "Walk-ins fine",
         phone: "(231) 223-7615",
         description: "20 acres of vines, quieter",
         mapsUrl: "https://www.google.com/maps/search/?api=1&query=2896+Bowers+Harbor+Rd%2C+Traverse+City%2C+MI+49686",
-      },
-      {
-        name: "Bowers Harbor Park",
-        time: "3:35 pm",
-        note: "View of Power Island",
-        description: "Paved shoreline walk",
-        mapsUrl: "https://www.google.com/maps/search/?api=1&query=2750+Bowers+Harbor+Rd%2C+Traverse+City%2C+MI+49686",
       },
       {
         name: "Trattoria Stella",
