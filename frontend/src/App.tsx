@@ -73,7 +73,7 @@ function AppContent() {
         <section className="tc-card px-4 py-3">
           <h2 className="font-serif font-semibold text-sm mb-1">Staying at</h2>
           <p className="text-sm font-sans">
-            <a href="https://www.google.com/maps/search/?api=1&query=1709+Alpine+Road%2C+Traverse+City%2C+MI+49686" target="_blank" rel="noreferrer" className="text-accent-foreground hover:underline font-medium">
+            <a href="https://maps.apple.com/?q=1709+Alpine+Road%2C+Traverse+City%2C+MI+49686" target="_blank" rel="noreferrer" className="text-accent-foreground hover:underline font-medium">
               North of Ordinary
             </a>
             {" "}— guest suite, hosted by Jo. Check in Sat 4 PM · Checkout Mon 11 AM.
