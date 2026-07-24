@@ -1,21 +1,24 @@
-import { Moon, Sun, Phone } from "lucide-react";
+import { useState } from "react";
+import { Moon, Sun, Phone, Car, Clock3 } from "lucide-react";
 import { itinerary } from "./data/itinerary";
 import { DayRow } from "./components/DayRow";
 import { NextUpBanner } from "./components/NextUpBanner";
+import { WeatherSummary } from "./components/WeatherSummary";
 import { AdminProvider } from "./components/AdminProvider";
 import { AdminPanel } from "./components/AdminPanel";
 import { useDarkMode } from "./hooks/useDarkMode";
-import { todayIsoDate } from "./hooks/useTripTime";
+import { isDayPast } from "./hooks/useTripTime";
 
-function nextUpcomingIso(): string | null {
-  const today = todayIsoDate();
-  const dates = itinerary.map((d) => d.isoDate).filter((iso) => iso > today).sort();
-  return dates[0] ?? null;
+function defaultExpanded(): Record<string, boolean> {
+  const open = itinerary.find((d) => !isDayPast(d.isoDate)) ?? itinerary[itinerary.length - 1];
+  return open ? { [open.id]: true } : {};
 }
 
 function AppContent() {
   const { dark, toggle } = useDarkMode();
-  const nextIso = nextUpcomingIso();
+  const [expanded, setExpanded] = useState<Record<string, boolean>>(defaultExpanded);
+
+  const toggleDay = (id: string) => setExpanded((prev) => ({ ...prev, [id]: !prev[id] }));
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -30,72 +33,77 @@ function AppContent() {
 
       <NextUpBanner itinerary={itinerary} />
 
-      <main className="max-w-3xl mx-auto px-4 py-6 space-y-6">
+      <main className="max-w-3xl mx-auto px-4 py-6 space-y-5">
         <header>
-          <h1 className="font-serif font-bold text-2xl">Traverse City Getaway</h1>
-          <p className="text-sm font-sans text-muted-foreground mt-1">
-            Sat, Sep 5 – Mon, Sep 7, 2026 · Old Mission Peninsula / Traverse City, MI · You + Maura
-          </p>
-          <p className="text-sm font-sans text-muted-foreground mt-1">
-            Driving from Wixom, MI — ~234 mi, ~4 hrs via US-23 N. Timezone: America/Detroit (Eastern).
-          </p>
+          <h1 className="font-serif font-bold text-2xl" style={{ textWrap: "balance" }}>Traverse City Getaway</h1>
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm font-sans text-muted-foreground mt-1.5">
+            <span>Sep 5–7, 2026</span>
+            <span>·</span>
+            <span>Old Mission Peninsula, MI</span>
+            <span>·</span>
+            <span>You + Maura</span>
+            <span className="inline-flex items-center gap-1"><Car className="w-3.5 h-3.5" /> 234 mi / 4 hrs</span>
+            <span className="inline-flex items-center gap-1"><Clock3 className="w-3.5 h-3.5" /> Eastern</span>
+          </div>
         </header>
 
-        <div className="rounded-lg border border-amber-300 bg-amber-50 dark:border-amber-800 dark:bg-amber-900/20 px-4 py-3 text-sm font-sans">
-          ⚠️ <strong>Checkout day (Mon, Sep 7, 2026) is Labor Day</strong> — the Old Mission wine trail sees
-          its heaviest traffic of the year that weekend. Call ahead for dinner reservations; expect
-          wineries busier than a typical weekend even at the quieter ones on the itinerary.
+        <WeatherSummary itinerary={itinerary} />
+
+        <div className="rounded-xl border border-amber-300 dark:border-amber-800 bg-amber-50 dark:bg-amber-900/20 shadow-sm px-4 py-2.5 text-xs font-sans">
+          ⚠️ Checkout day (Mon, Sep 7) is Labor Day — expect heavier wine-trail traffic and call ahead for reservations.
         </div>
 
-        <section className="rounded-lg border border-border bg-card px-4 py-3">
-          <h2 className="font-serif font-semibold text-sm mb-2">Reservations status</h2>
-          <ul className="text-sm font-sans space-y-1">
-            <li>⏳ <strong>The Boathouse</strong> (Sat dinner) — waitlisted, notify alert set via OpenTable, no table yet</li>
-            <li>✅ <strong>Trattoria Stella</strong> (Sun dinner) — confirmed, Sun Sep 6, 7:15 PM, 2 guests, via Resy</li>
-          </ul>
-          <p className="text-xs font-sans text-muted-foreground mt-2">
-            Trattoria Stella cancellation deadline: Sunday, Sep 6 by 12:00 PM (noon), same day. Cancel
-            after, or no-show, and it's a $25/guest fee ($50 total), charged to the card on file.
+        <section className="tc-card px-4 py-3">
+          <h2 className="font-serif font-semibold text-sm mb-1.5">Reservations</h2>
+          <div className="space-y-1 text-sm font-sans">
+            <div className="flex items-center gap-2">
+              <span className="text-[9px] font-sans font-bold uppercase px-1.5 py-0.5 rounded bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300 flex-shrink-0">Waitlisted</span>
+              <span>The Boathouse — Sat dinner, OpenTable notify alert set</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-[9px] font-sans font-bold uppercase px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300 flex-shrink-0">Confirmed</span>
+              <span>Trattoria Stella — Sun 7:15 PM, 2 guests, via Resy</span>
+            </div>
+          </div>
+          <p className="text-xs font-sans text-muted-foreground mt-1.5">
+            Cancel Trattoria Stella by noon Sun to avoid a $25/guest fee.
           </p>
         </section>
 
-        <section className="rounded-lg border border-border bg-card px-4 py-3">
-          <h2 className="font-serif font-semibold text-sm mb-2">Where you're staying</h2>
+        <section className="tc-card px-4 py-3">
+          <h2 className="font-serif font-semibold text-sm mb-1">Staying at</h2>
           <p className="text-sm font-sans">
             <a href="https://www.google.com/maps/search/?api=1&query=1709+Alpine+Road%2C+Traverse+City%2C+MI+49686" target="_blank" rel="noreferrer" className="text-accent-foreground hover:underline font-medium">
               North of Ordinary
             </a>
-            {" "}— entire guest suite, hosted by Jo (Superhost, 9 years). 1709 Alpine Road, Traverse City, MI 49686.
-          </p>
-          <p className="text-xs font-sans text-muted-foreground mt-1">
-            Check-in Sat Sep 5 · 4:00 PM — Checkout Mon Sep 7 · 11:00 AM. Private entrance, hot tub,
-            peekaboo West Bay views. Well-behaved house-trained dogs only.
+            {" "}— guest suite, hosted by Jo. Check in Sat 4 PM · Checkout Mon 11 AM.
           </p>
         </section>
 
-        <section className="rounded-lg border border-border bg-card px-4 py-3">
-          <h2 className="font-serif font-semibold text-sm mb-2">Packing / weather note</h2>
+        <section className="tc-card px-4 py-3">
+          <h2 className="font-serif font-semibold text-sm mb-1">Packing</h2>
           <p className="text-sm font-sans text-muted-foreground">
-            No real forecast exists this far out (forecasts only go out ~2 weeks), but typical
-            early-September Traverse City weather is mild: highs upper-60s to low-70s°F, lows around
-            50°F. Light layers, something warm for evenings outdoors.
+            Highs upper-60s–70s°F, lows ~50°F. Light layers, something warm for evenings.
           </p>
         </section>
 
-        <section className="rounded-lg border border-border bg-card overflow-hidden">
-          <h2 className="font-serif font-semibold text-sm px-4 pt-3 pb-1">Day-by-day plan</h2>
+        <section className="tc-card overflow-hidden">
+          <h2 className="font-serif font-semibold text-sm px-4 pt-3 pb-1">Day by day</h2>
           {itinerary.map((item) => (
-            <DayRow key={item.id} item={item} isNext={item.isoDate === nextIso} />
+            <DayRow
+              key={item.id}
+              item={item}
+              expanded={!!expanded[item.id]}
+              onToggle={() => toggleDay(item.id)}
+            />
           ))}
         </section>
 
-        <section className="rounded-lg border border-border bg-card px-4 py-3">
-          <h2 className="font-serif font-semibold text-sm mb-1 inline-flex items-center gap-1.5">
+        <section className="tc-card px-4 py-3">
+          <h2 className="font-serif font-semibold text-sm inline-flex items-center gap-1.5">
             <Phone className="w-3.5 h-3.5" /> Who to call
           </h2>
-          <p className="text-sm font-sans text-muted-foreground">
-            Local trip in Michigan — just 911 for any emergency, no separate contact list needed.
-          </p>
+          <p className="text-sm font-sans text-muted-foreground mt-0.5">911 for any emergency.</p>
         </section>
       </main>
 

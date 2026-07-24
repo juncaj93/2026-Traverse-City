@@ -9,7 +9,7 @@ interface ClothingBadgeProps {
   weather?: DayWeather | null;
 }
 
-function weatherAddendum(w: DayWeather): string {
+export function weatherAddendum(w: DayWeather): string {
   const { maxF, minF, precipPct } = w;
   const tempNote =
     maxF >= 72 ? `${maxF}°F high — light layers work fine.`

@@ -13,26 +13,33 @@
 }
 
 :root {
-  --background: hsl(40, 30%, 98%);
-  --foreground: hsl(215, 25%, 15%);
+  --background: hsl(205, 22%, 96%);
+  --foreground: hsl(215, 30%, 14%);
   --card: hsl(0, 0%, 100%);
-  --border: hsl(215, 15%, 88%);
-  --muted-foreground: hsl(215, 12%, 45%);
-  --accent: hsl(200, 65%, 94%);
-  --accent-foreground: hsl(200, 70%, 28%);
+  --border: hsl(205, 16%, 87%);
+  --muted-foreground: hsl(205, 10%, 45%);
+  --accent: hsl(192, 55%, 93%);
+  --accent-foreground: hsl(192, 65%, 26%);
 }
 
 .dark {
-  --background: hsl(215, 30%, 9%);
-  --foreground: hsl(40, 15%, 92%);
-  --card: hsl(215, 25%, 13%);
-  --border: hsl(215, 15%, 22%);
-  --muted-foreground: hsl(215, 10%, 62%);
-  --accent: hsl(200, 40%, 18%);
-  --accent-foreground: hsl(200, 70%, 75%);
+  --background: hsl(215, 34%, 8%);
+  --foreground: hsl(205, 20%, 92%);
+  --card: hsl(215, 27%, 12%);
+  --border: hsl(215, 18%, 20%);
+  --muted-foreground: hsl(205, 10%, 60%);
+  --accent: hsl(192, 45%, 18%);
+  --accent-foreground: hsl(192, 60%, 72%);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+.tc-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.85rem;
+  box-shadow: 0 1px 3px rgba(15, 35, 45, 0.06);
 }
