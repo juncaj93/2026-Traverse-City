@@ -1,0 +1,14 @@
+{
+  "name": "traverse-city-2026",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k -n backend,frontend -c blue,green \"pnpm --filter @workspace/api-server dev\" \"pnpm --filter @workspace/frontend dev\"",
+    "build": "pnpm --filter @workspace/frontend build && pnpm --filter @workspace/api-server build",
+    "typecheck": "pnpm -r run typecheck"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "typescript": "~5.9.3"
+  }
+}

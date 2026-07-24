@@ -1,0 +1,17 @@
+# ============================================================================
+# SECURITY: Minimum release age for npm packages (supply-chain attack defense)
+# ============================================================================
+# Requires that any npm package version must have been published for at
+# least 1 day (1440 minutes) before pnpm will install it. Carried forward
+# from Itinerary-Template as a cheap, general defense against supply-chain
+# attacks. Do not disable this.
+minimumReleaseAge: 1440
+
+packages:
+  - backend/*
+  - frontend
+
+autoInstallPeers: false
+
+onlyBuiltDependencies:
+  - esbuild
