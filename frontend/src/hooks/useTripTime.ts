@@ -1,9 +1,17 @@
 // ── Trip time utilities ─────────────────────────────────────────────────────
-// DEMO MODE: pretend it's a specific moment during the trip, for previewing
-// the "today" highlighting / countdown before the real dates arrive.
-// Flip DEMO_MODE to false to use the real clock (do this before launch).
+// The whole trip (Sep 5–7, 2026) sits in America/Detroit (Eastern). The trip
+// dates fall within EDT (UTC-4); TRIP_UTC_OFFSET hardcodes that so event times
+// resolve without a timezone library. A trip straddling a DST change would
+// need real zone math here.
+//
+// DEMO MODE: pretend it's a specific moment during the trip, to preview the
+// "today" highlighting / countdown before the real dates arrive. Flip to false
+// (do this before launch) to use the real clock.
 export const DEMO_MODE = false;
-const DEMO_DATE = new Date("2026-09-06T14:00:00-04:00"); // kept for reference, unused when DEMO_MODE=false
+const DEMO_DATE = new Date("2026-09-06T10:30:00-04:00"); // unused when DEMO_MODE=false
+
+const TRIP_TZ = "America/Detroit";
+const TRIP_UTC_OFFSET = "-04:00";
 
 export function getNow(): Date {
   return DEMO_MODE ? DEMO_DATE : new Date();
@@ -21,13 +29,7 @@ export function parseTime12(timeStr: string): { h: number; m: number } | null {
   return { h, m };
 }
 
-// The trip (Sep 5-7, 2026) falls entirely within Eastern Daylight Time
-// (America/Detroit, UTC-4). Hardcoding the offset avoids a timezone library
-// for a fixed, known date range — this would need updating for a trip that
-// straddles a DST change.
-const TRIP_UTC_OFFSET = "-04:00";
-
-// Build a full Date in the trip's timezone from an ISO date string + optional time string
+// Build a full Date in trip-local time from an ISO date + optional time string
 export function toTripDate(isoDate: string, timeStr?: string): Date {
   if (!timeStr) return new Date(`${isoDate}T23:59:59${TRIP_UTC_OFFSET}`);
   const t = parseTime12(timeStr);
@@ -37,9 +39,9 @@ export function toTripDate(isoDate: string, timeStr?: string): Date {
   );
 }
 
-// Today's date in the trip's timezone as YYYY-MM-DD
+// Today's date in trip-local time as YYYY-MM-DD
 export function todayIsoDate(): string {
-  return getNow().toLocaleDateString("en-CA", { timeZone: "America/Detroit" });
+  return getNow().toLocaleDateString("en-CA", { timeZone: TRIP_TZ });
 }
 
 export function isDayPast(isoDate: string): boolean {
@@ -54,6 +56,13 @@ export function isEventPast(isoDate: string, timeStr?: string): boolean {
   const now = getNow();
   const eventDate = toTripDate(isoDate, timeStr ?? "00:00 am");
   return now > eventDate;
+}
+
+export function isTomorrow(isoDate: string): boolean {
+  const now = getNow();
+  const tomorrowMs = now.getTime() + 24 * 60 * 60 * 1000;
+  const tomorrowStr = new Date(tomorrowMs).toLocaleDateString("en-CA", { timeZone: TRIP_TZ });
+  return isoDate === tomorrowStr;
 }
 
 // Format ms gap → "45m", "2h 15m", or "2d 3h" (never raw hours past 24)

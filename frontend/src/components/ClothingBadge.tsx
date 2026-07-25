@@ -30,7 +30,7 @@ export function ClothingBadge({ hint, weather }: ClothingBadgeProps) {
   const handleToggle = () => {
     if (!open && btnRef.current) {
       const rect = btnRef.current.getBoundingClientRect();
-      const w = 256; // popover width px
+      const w = 256;
       const spaceBelow = window.innerHeight - rect.bottom;
       const above = spaceBelow < 240;
 
@@ -39,17 +39,9 @@ export function ClothingBadge({ hint, weather }: ClothingBadgeProps) {
       if (left < 8) left = 8;
 
       setStyle(above ? {
-        position: "fixed",
-        left,
-        bottom: window.innerHeight - rect.top + 6,
-        width: w,
-        zIndex: 9999,
+        position: "fixed", left, bottom: window.innerHeight - rect.top + 6, width: w, zIndex: 9999,
       } : {
-        position: "fixed",
-        left,
-        top: rect.bottom + 6,
-        width: w,
-        zIndex: 9999,
+        position: "fixed", left, top: rect.bottom + 6, width: w, zIndex: 9999,
       });
     }
     setOpen((o) => !o);
@@ -58,7 +50,7 @@ export function ClothingBadge({ hint, weather }: ClothingBadgeProps) {
   const popover = open ? createPortal(
     <>
       <div className="fixed inset-0" style={{ zIndex: 9998 }} onClick={() => setOpen(false)} />
-      <div style={style} className="bg-card border border-border rounded-xl shadow-2xl p-3">
+      <div style={style} className="bg-card border border-border rounded-xl shadow-lg p-3">
         <div className="flex items-start justify-between gap-2 mb-1.5">
           <span className="font-sans text-[11px] font-bold text-foreground uppercase tracking-wider">
             What to Wear
@@ -84,8 +76,8 @@ export function ClothingBadge({ hint, weather }: ClothingBadgeProps) {
         ref={btnRef}
         onClick={handleToggle}
         title="What to wear"
-        className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-sans font-medium transition-colors"
-        style={{ background: "#FFF8E1", color: "#7a5c00", border: "1px solid #FFB612" }}
+        className="chip-tinted press inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-sans font-medium"
+        style={{ ["--chip-accent" as string]: "#E0952B" }}
       >
         <Shirt className="w-3 h-3" />
         <span className="hidden sm:inline">Wear</span>

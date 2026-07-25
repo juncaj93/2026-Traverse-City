@@ -17,9 +17,15 @@ pnpm install
 pnpm dev        # backend on :3001, frontend (Vite, proxying /api) on :5173
 ```
 
-- `frontend/` — Vite + React + TypeScript + Tailwind v4. Day-by-day
-  itinerary (`src/data/itinerary.ts`), live weather + "what to wear" badges,
-  dark mode, and a sticky "next up" countdown banner.
+- `frontend/` — Vite + React + TypeScript + Tailwind v4, styled to match the
+  `2026-South-Africa` build's polish with a fresh Traverse City palette (bay
+  blue / vineyard green / cherry, warm sunset-gold accents; light + dark).
+  Features: a **SmartToday** hero (pre-trip countdown → live "next up" +
+  today's essentials during the trip), per-day section banners with an
+  overview↔detail toggle, collapsible **transport strips** (drive there /
+  home), live weather + "what to wear" badges, system-following dark mode, and
+  Apple Maps location links. Trip content lives in `src/data/itinerary.ts`;
+  the theme/section colors in `src/lib/theme.ts`.
 - `backend/api-server/` — Express API with a PIN-gated admin panel
   (cancel/reschedule/add itinerary items without a redeploy). Default PIN is
   `1526` — override with the `ADMIN_PIN` env var. Falls back to local-disk
