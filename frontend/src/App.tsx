@@ -147,19 +147,34 @@ function AppContent() {
 
   const sectionRefs = useRef<Record<string, HTMLElement | null>>({});
 
+  // Scroll-spy: the active day is the last one whose top has reached the nav.
+  // (An IntersectionObserver keyed on the viewport's middle band missed short
+  // sections like a collapsed Day 2, leaving the underline stuck on 1 or 3.)
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries.filter((e) => e.isIntersecting);
-        if (!visible.length) return;
-        const best = visible.reduce((a, b) => (a.intersectionRatio >= b.intersectionRatio ? a : b));
-        const id = best.target.getAttribute("data-section") as DayId | null;
-        if (id) setActiveSection(id);
-      },
-      { threshold: 0, rootMargin: "-40% 0px -40% 0px" },
-    );
-    Object.values(sectionRefs.current).forEach((el) => el && observer.observe(el));
-    return () => observer.disconnect();
+    let raf = 0;
+    const compute = () => {
+      raf = 0;
+      // At the very bottom, the last (often short) day can't scroll under the
+      // nav, so anchor to it directly instead of leaving the prior day active.
+      const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4;
+      if (atBottom) { setActiveSection(DAY_IDS[DAY_IDS.length - 1]); return; }
+      const navH = document.querySelector("nav")?.offsetHeight ?? 50;
+      let active: DayId = DAY_IDS[0];
+      for (const id of DAY_IDS) {
+        const el = sectionRefs.current[id];
+        if (el && el.getBoundingClientRect().top - navH - 12 <= 0) active = id;
+      }
+      setActiveSection(active);
+    };
+    const onScroll = () => { if (!raf) raf = requestAnimationFrame(compute); };
+    compute();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+      if (raf) cancelAnimationFrame(raf);
+    };
   }, []);
 
   const scrollTo = (id: string) => {
