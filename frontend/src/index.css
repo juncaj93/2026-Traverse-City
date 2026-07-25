@@ -40,38 +40,39 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-/* ── Light: bright bay-morning palette ────────────────────────────────────
-   Grand Traverse Bay water (blue) as the structural primary, vineyard pine as
-   secondary, and Cherry-Capital red as the tertiary section colour. Warm
-   "sunset gold" (#E0952B, set inline where used) carries interactive accents. */
+/* ── Light: bright Great Lakes shoreline palette ──────────────────────────
+   Deep Lake Michigan blue as the structural primary, northern pine as
+   secondary, and a lake-sunset coral as the warm accent. Dune-gold (#E39A3B,
+   set inline where used) carries interactive highlights. Neutrals lean cool,
+   toward the water. */
 :root {
-  --background: 200 33% 97%;
-  --foreground: 205 30% 13%;
+  --background: 196 32% 97%;
+  --foreground: 205 33% 13%;
 
-  --border: 200 20% 88%;
-  --input: 200 20% 88%;
-  --ring: 199 70% 40%;
+  --border: 198 22% 87%;
+  --input: 198 22% 87%;
+  --ring: 199 74% 40%;
 
-  --card: 200 40% 99.5%;
-  --card-foreground: 205 30% 13%;
+  --card: 197 42% 99.5%;
+  --card-foreground: 205 33% 13%;
 
-  --popover: 200 40% 99.5%;
-  --popover-foreground: 205 30% 13%;
+  --popover: 197 42% 99.5%;
+  --popover-foreground: 205 33% 13%;
 
-  /* Grand Traverse Bay blue */
-  --primary: 199 70% 38%;
-  --primary-foreground: 200 40% 98%;
+  /* Lake Michigan deep water */
+  --primary: 199 76% 36%;
+  --primary-foreground: 197 42% 98%;
 
-  /* Vineyard pine */
-  --secondary: 158 30% 28%;
+  /* Northern pine */
+  --secondary: 165 34% 29%;
   --secondary-foreground: 150 30% 97%;
 
-  --muted: 200 24% 93%;
-  --muted-foreground: 205 12% 40%;
+  --muted: 197 26% 92%;
+  --muted-foreground: 205 13% 40%;
 
-  /* Cherry */
-  --accent: 348 66% 47%;
-  --accent-foreground: 350 40% 98%;
+  /* Lake-sunset coral */
+  --accent: 18 72% 50%;
+  --accent-foreground: 24 40% 98%;
 
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
@@ -83,12 +84,12 @@
   --app-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   /* Soft, diffuse elevation — light falls, it doesn't outline */
-  --shadow-2xs: 0px 1px 2px 0px rgba(20,45,60,0.03);
-  --shadow-xs: 0px 1px 3px 0px rgba(20,45,60,0.05);
-  --shadow-sm: 0px 1px 2px 0px rgba(20,45,60,0.04), 0px 4px 12px -4px rgba(20,45,60,0.07);
-  --shadow: 0px 1px 2px 0px rgba(20,45,60,0.05), 0px 6px 16px -6px rgba(20,45,60,0.09);
-  --shadow-md: 0px 2px 4px -1px rgba(20,45,60,0.05), 0px 10px 24px -8px rgba(20,45,60,0.10);
-  --shadow-lg: 0px 4px 8px -2px rgba(20,45,60,0.05), 0px 18px 36px -12px rgba(20,45,60,0.12);
+  --shadow-2xs: 0px 1px 2px 0px rgba(15,50,65,0.03);
+  --shadow-xs: 0px 1px 3px 0px rgba(15,50,65,0.05);
+  --shadow-sm: 0px 1px 2px 0px rgba(15,50,65,0.04), 0px 4px 12px -4px rgba(15,50,65,0.07);
+  --shadow: 0px 1px 2px 0px rgba(15,50,65,0.05), 0px 6px 16px -6px rgba(15,50,65,0.09);
+  --shadow-md: 0px 2px 4px -1px rgba(15,50,65,0.05), 0px 10px 24px -8px rgba(15,50,65,0.10);
+  --shadow-lg: 0px 4px 8px -2px rgba(15,50,65,0.05), 0px 18px 36px -12px rgba(15,50,65,0.12);
 
   /* Motion — one easing curve everywhere so the app feels of a piece */
   --ease-premium: cubic-bezier(0.22, 0.61, 0.36, 1);
@@ -97,32 +98,32 @@
   --dur-slow: 380ms;
 }
 
-/* ── Dark: night-over-the-bay palette ─────────────────────────────────────── */
+/* ── Dark: night-over-the-lake palette ────────────────────────────────────── */
 .dark {
-  --background: 205 33% 8%;
-  --foreground: 200 20% 90%;
+  --background: 202 40% 8%;
+  --foreground: 197 20% 90%;
 
-  --border: 205 18% 18%;
-  --input: 205 18% 18%;
-  --ring: 199 65% 52%;
+  --border: 202 20% 18%;
+  --input: 202 20% 18%;
+  --ring: 195 66% 52%;
 
-  --card: 205 26% 12%;
-  --card-foreground: 200 20% 90%;
+  --card: 202 30% 12%;
+  --card-foreground: 197 20% 90%;
 
-  --popover: 205 26% 12%;
-  --popover-foreground: 200 20% 90%;
+  --popover: 202 30% 12%;
+  --popover-foreground: 197 20% 90%;
 
-  --primary: 199 65% 52%;
-  --primary-foreground: 205 40% 98%;
+  --primary: 195 68% 52%;
+  --primary-foreground: 202 42% 98%;
 
-  --secondary: 158 28% 40%;
+  --secondary: 165 32% 42%;
   --secondary-foreground: 150 30% 97%;
 
-  --muted: 205 18% 16%;
-  --muted-foreground: 205 12% 70%;
+  --muted: 202 20% 16%;
+  --muted-foreground: 200 12% 70%;
 
-  --accent: 348 62% 58%;
-  --accent-foreground: 350 40% 98%;
+  --accent: 18 68% 58%;
+  --accent-foreground: 24 40% 98%;
 
   --destructive: 0 75% 55%;
   --destructive-foreground: 0 0% 100%;

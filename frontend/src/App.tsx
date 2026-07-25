@@ -4,6 +4,7 @@ import { itinerary } from "./data/itinerary";
 import type { ItineraryItem } from "./data/itinerary";
 import { DayRow } from "./components/DayRow";
 import { SmartToday } from "./components/SmartToday";
+import { Lodging } from "./components/Lodging";
 import { TransportStrip } from "./components/TransportStrip";
 import { TripInfo } from "./components/TripInfo";
 import { AdminButton } from "./components/AdminPanel";
@@ -24,13 +25,12 @@ function nextUpcomingIso(): string | null {
 
 // ── Section banner ──────────────────────────────────────────────────────────
 function SectionBanner({
-  id, label, date, mapsUrl, bg,
+  label, date, mapsUrl, bg,
 }: {
-  id: string; label: string; date: string; mapsUrl: string; bg: string;
+  label: string; date: string; mapsUrl: string; bg: string;
 }) {
   return (
     <div
-      id={id}
       className="flex items-center gap-3.5 pl-4 pr-5 py-3.5"
       style={{
         background: `linear-gradient(135deg,
@@ -119,7 +119,7 @@ function TZClock() {
   const t = getNow().toLocaleTimeString("en-US", { timeZone: "America/Detroit", hour: "2-digit", minute: "2-digit", hour12: true });
   return (
     <div className="hidden md:flex items-center gap-2 text-[10px] font-sans text-muted-foreground whitespace-nowrap select-none">
-      <span title="Traverse City (Eastern)">🍒 {t}</span>
+      <span title="Traverse City (Eastern)">🌊 {t}</span>
       {DEMO_MODE && (
         <span className="px-1 py-0.5 rounded text-[9px] font-bold bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-400 border border-amber-300 dark:border-amber-700 ml-0.5">demo</span>
       )}
@@ -200,7 +200,7 @@ function AppContent() {
             September 5 – 7, 2026 · You + Maura
           </p>
           <div className="inline-flex items-center gap-2 rounded-full bg-white/[0.07] px-4 py-1.5 text-[13px] font-sans text-white/55">
-            <span>🚗 234 mi from Wixom</span>
+            <span>🌊 West Grand Traverse Bay</span>
             <span className="text-white/20">·</span>
             <span>🍷 Old Mission wine trail</span>
           </div>
@@ -219,7 +219,7 @@ function AppContent() {
               return (
                 <button
                   key={id}
-                  onClick={() => scrollTo(id)}
+                  onClick={() => scrollTo(`sec-${id}`)}
                   className="press px-2 sm:px-3 h-12 text-[13.5px] sm:text-[15px] font-sans transition-colors relative whitespace-nowrap"
                   style={isActive ? { color: "var(--color-foreground)", fontWeight: 600 } : { color: "var(--color-muted-foreground)", fontWeight: 500 }}
                 >
@@ -262,14 +262,15 @@ function AppContent() {
       </nav>
 
       <SmartToday />
+      <Lodging />
 
       {/* ── DAY SECTIONS ── */}
       {itinerary.map((item, idx) => {
         const id = item.id as DayId;
         const theme = DAY_THEME[id];
         return (
-          <section key={id} ref={(el) => { sectionRefs.current[id] = el; }} data-section={id}>
-            <SectionBanner id={id} label={`${item.day} · ${item.title}`} date={item.date} mapsUrl={item.mapsUrl} bg={theme.bg} />
+          <section key={id} id={`sec-${id}`} ref={(el) => { sectionRefs.current[id] = el; }} data-section={id}>
+            <SectionBanner label={`${item.day} · ${item.title}`} date={item.date} mapsUrl={item.mapsUrl} bg={theme.bg} />
             <div className="max-w-3xl mx-auto">
               {idx === 0 && (
                 <TransportStrip

@@ -105,7 +105,7 @@ export function SmartToday() {
           </p>
           <p className="font-sans font-semibold text-4xl text-foreground leading-none tracking-tight tabular-nums mt-2">{cd}</p>
           <p className="font-sans text-[0.95rem] text-muted-foreground mt-2.5">
-            First stop · <span className="text-foreground font-medium">Old Mission Peninsula</span> 🍒
+            First stop · <span className="text-foreground font-medium">Old Mission Peninsula</span> 🌊
             {currentTemp != null && <span className="text-muted-foreground"> · {currentTemp}° now</span>}
           </p>
         </div>
@@ -139,7 +139,7 @@ export function SmartToday() {
               Today{dayLabel ? ` · ${dayLabel}` : ""}
             </p>
             <p className="font-serif text-[1.4rem] sm:text-[1.75rem] text-foreground leading-tight mt-2 text-balance">
-              {locItem.location} <span className="align-middle">🍒</span>
+              {locItem.location} <span className="align-middle">🌊</span>
             </p>
           </div>
           {currentTemp != null && (
