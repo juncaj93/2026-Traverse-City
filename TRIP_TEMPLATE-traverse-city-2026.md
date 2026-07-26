@@ -89,7 +89,9 @@ Maps: https://www.google.com/maps/search/?api=1&query=14039+Peninsula+Dr%2C+Trav
 | 11:30 AM–1:00 PM | Haserot Beach (grab lunch at the General Store first, or pack something) |
 | 1:30–2:15 PM | Hawthorne Vineyards tasting |
 | 2:30–3:15 PM | Bowers Harbor Vineyards tasting |
-| 3:15–6:30 PM | Drive back, freshen up, relax |
+| 3:30–4:30 PM | Chateau Chantal — the romantic hilltop stop |
+| 4:30–6:00 PM | Drive back, freshen up, relax |
+| 6:15–6:50 PM | Botanic Garden stroll (Historic Barns Park, by Stella) |
 | **7:15 PM — confirmed** | **Dinner: Trattoria Stella** |
 
 - **Old Mission General Store** — 160-year-old country store with an
@@ -116,6 +118,18 @@ Maps: https://www.google.com/maps/search/?api=1&query=14039+Peninsula+Dr%2C+Trav
   2896 Bowers Harbor Rd, Traverse City, MI 49686 · (231) 223-7615 ·
   Sun–Thu 11–6, Fri–Sat 11–7 · walk-ins fine
   Maps: https://www.google.com/maps/search/?api=1&query=2896+Bowers+Harbor+Rd%2C+Traverse+City%2C+MI+49686
+- **Chateau Chantal** — hilltop winery and inn on the Center Rd spine, with
+  panoramic views of both East and West Grand Traverse Bay — the most
+  romantic of the peninsula's tasting rooms. Its sunset view (~8:15 PM in
+  early Sep) conflicts with the 7:15 dinner, so this is a late-afternoon
+  stop; move dinner later if you want the sunset here instead.
+  15900 Rue De Vin, Traverse City, MI 49686 · (231) 223-4110
+  Maps: https://www.google.com/maps/search/?api=1&query=15900+Rue+De+Vin%2C+Traverse+City%2C+MI+49686
+- **Botanic Garden at Historic Barns Park** — quiet, intimate gardens for a
+  pre-dinner stroll; a ~5-minute walk from Trattoria Stella at Grand Traverse
+  Commons, so it pairs naturally before the 7:15 reservation.
+  1490 Red Dr, Traverse City, MI 49684
+  Maps: https://www.google.com/maps/search/?api=1&query=1490+Red+Dr%2C+Traverse+City%2C+MI+49684
 - **Trattoria Stella** — locals' farm-to-table Italian in the historic
   Village at Grand Traverse Commons, off the touristy Front St strip.
   830 Cottageview Dr Ste G01, Traverse City, MI 49684 · (231) 929-8989
@@ -139,4 +153,6 @@ Local trip in Michigan — just 911 for any emergency, no separate contact list 
 - Old Mission Lighthouse Park — peninsulatownship.com, traversecity.com, Yelp
 - Old Mission General Store — Yelp, traversecity.com
 - Haserot Beach Park — oldmissionrealestate.com, traversecity.com (no official street address published — reachable via named-place Maps search)
+- Chateau Chantal — chateauchantal.com, traversecity.com, Yelp
+- Botanic Garden at Historic Barns Park — thebotanicgarden.org, traversecity.com
 - Labor Day 2026 date (Sep 7) — standard US federal holiday calendar (first Monday of September)

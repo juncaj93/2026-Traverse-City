@@ -127,6 +127,21 @@ export const itinerary: ItineraryItem[] = [
         mapsUrl: maps("2896+Bowers+Harbor+Rd%2C+Traverse+City%2C+MI+49686"),
       },
       {
+        name: "Chateau Chantal",
+        time: "3:30 pm",
+        note: "The romantic stop — views of both bays",
+        phone: "(231) 223-4110",
+        description: "Hilltop winery & inn",
+        mapsUrl: maps("15900+Rue+De+Vin%2C+Traverse+City%2C+MI+49686"),
+      },
+      {
+        name: "Botanic Garden at Historic Barns Park",
+        time: "6:15 pm",
+        note: "Quiet pre-dinner stroll · 5 min from Stella",
+        description: "Intimate gardens at Grand Traverse Commons",
+        mapsUrl: maps("1490+Red+Dr%2C+Traverse+City%2C+MI+49684"),
+      },
+      {
         name: "Trattoria Stella",
         time: "7:15 pm",
         status: "confirmed",
