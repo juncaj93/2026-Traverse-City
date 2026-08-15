@@ -60,7 +60,8 @@ double-check on your phone once there.*
 | 8:00 AM | Leave Wixom (4 hr drive + a stop) |
 | ~12:30–1:00 PM | Arrive in Traverse City |
 | 1:00–2:30 PM | **Lunch: Jolly Pumpkin** — warm-up stop for the trip |
-| 2:30–4:00 PM | Free time / drive the last stretch to the rental |
+| 2:30–3:15 PM | Scenic overlook stop, Center Rd (M-37), Old Mission Peninsula |
+| 3:15–4:00 PM | Drive the last stretch to the rental |
 | 4:00 PM | Check in at North of Ordinary |
 | 6:30 PM | **Dinner** — The Boathouse if the waitlist clears, otherwise Artisan or PepeNero (both booked as backups, see §2) |
 
@@ -70,6 +71,13 @@ house-smoked ribs, local beer. Casual patio overlooking the water.
 13512 Peninsula Dr, Traverse City, MI 49686 · (231) 223-4333 · Mon–Sat
 12–9, Sun 12–8 · walk-ins fine
 Maps: https://www.google.com/maps/search/?api=1&query=13512+Peninsula+Dr%2C+Traverse+City%2C+MI+49686
+
+**Scenic overlook, Center Rd (M-37)** — roadside pull-off between Bonobo
+Winery and Chateau Grand Traverse, about halfway up the peninsula, looking
+out over both West and East Grand Traverse Bay at once — right on the way
+from lunch up to the rental. No formal address (it's a pull-off, not a
+business); Bonobo Winery is the nearest landmark.
+Maps (landmark): https://www.google.com/maps/search/?api=1&query=Bonobo+Winery%2C+12011+Center+Rd%2C+Traverse+City%2C+MI+49685
 
 **The Boathouse** (waitlisted, first choice) — upscale but unpretentious,
 right on West Bay.
@@ -85,34 +93,43 @@ Maps: https://www.google.com/maps/search/?api=1&query=615+E+Front+St%2C+Traverse
 700 Cottageview Dr Ste 100, Traverse City, MI 49684 · (231) 929-1960
 Maps: https://www.google.com/maps/search/?api=1&query=700+Cottageview+Dr%2C+Traverse+City%2C+MI+49684
 
-### Day 2 — Sun, Sep 6: Glen Arbor & Suttons Bay
+### Day 2 — Sun, Sep 6: Suttons Bay, Leland & Glen Arbor
 Per Maura's notes: focus the day up around Glen Arbor and Suttons Bay
-instead of the Old Mission peninsula loop, and swap in the Lake Michigan
-beach by Glen Arbor. Condensed on purpose — this is a relaxed drive-up
-weekend, not a packed touring day.
+instead of the Old Mission peninsula loop. Leland sits right on M-22
+between the two, so it slots in on the way rather than adding a detour —
+and its beach (Van's Beach) is a better-documented pick than the
+previous vague "Glen Arbor beach," so that's the Lake Michigan stop for
+the day. Still condensed on purpose — a relaxed drive-up weekend, not a
+packed touring day.
 
 | Time | What |
 |---|---|
 | 10:00 AM | Leave the rental, drive up through Suttons Bay (~25 min) |
-| 10:30–11:15 AM | Coffee + browse downtown Suttons Bay |
-| 11:15 AM–12:00 PM | Drive to Glen Arbor (~30 min) |
-| 12:00–1:15 PM | Lunch in Glen Arbor |
-| 1:15–3:30 PM | Beach time — Lake Michigan at Glen Arbor |
-| 3:30–4:15 PM | Drive back to Traverse City (~45 min) |
-| 4:15–6:30 PM | Farm Club — relax, drinks, wander the market |
+| 10:30–11:00 AM | Coffee + browse downtown Suttons Bay |
+| 11:00–11:30 AM | Drive to Leland (~25 min) |
+| 11:30 AM–1:00 PM | Fishtown + Van's Beach, Leland |
+| 1:00–1:30 PM | Drive to Glen Arbor (~20 min) |
+| 1:30–2:30 PM | Lunch in Glen Arbor |
+| 2:30–3:15 PM | Drive back to Traverse City (~45 min) |
+| 3:15–5:45 PM | Farm Club — relax, drinks, wander the market |
 | **7:15 PM — confirmed** | **Dinner: Trattoria Stella** |
 
 - **Downtown Suttons Bay** — small Leelanau Peninsula lake town, easy
   walkable main street for coffee and browsing before heading further up.
   Try Hive Coffee Co. or Mundos Roasting & Co.
   Maps: https://www.google.com/maps/search/?api=1&query=Suttons+Bay%2C+MI
+- **Fishtown, Leland** — a cluster of preserved 19th-century fishing
+  shanties (now shops/eateries) right at the Leland River/Harbor mouth,
+  one of the last working fishing villages on the Great Lakes — a short
+  walk, easy to fold in on the way to Glen Arbor.
+  Maps: https://www.google.com/maps/search/?api=1&query=Fishtown%2C+Leland%2C+MI
+- **Van's Beach, Leland** — Lake Michigan beach at the end of Cedar St,
+  right next to Fishtown (walkable from it), known for its sunset views
+  of the Manitou Islands and blue-stone hunting along the shore.
+  Maps: https://www.google.com/maps/search/?api=1&query=Van%27s+Beach%2C+Cedar+St%2C+Leland%2C+MI+49654
 - **Glen Arbor** — village at the edge of Sleeping Bear Dunes; lunch
-  options along M-22, then the Lake Michigan beach just outside town.
+  options along M-22.
   Maps: https://www.google.com/maps/search/?api=1&query=Glen+Arbor%2C+MI
-- **Glen Arbor Township / Municipal Beach** — Lake Michigan beach right by
-  Glen Arbor (swapped in per Maura in place of the Old Mission bay beach).
-  No single confirmed street address — reached via M-22 in Glen Arbor.
-  Maps (by name): https://www.google.com/maps/search/?api=1&query=Glen+Arbor+Municipal+Beach%2C+Glen+Arbor%2C+MI+49636
 - **Farm Club** — farm market, brewery, and restaurant on the way back
   toward town; a repeat spot, casual hang before dinner.
   10051 S Lake Leelanau Dr, Traverse City, MI 49684 · (231) 252-3079
@@ -137,7 +154,10 @@ Local trip in Michigan — just 911 for any emergency, no separate contact list 
 - Artisan — Traverse City — Yelp, artisantc.com, OpenTable
 - PepeNero — Yelp, traversecity.com, pepenerotc.com, OpenTable/Resy listings
 - Suttons Bay coffee shops — Hive Coffee Co., Mundos Roasting & Co. listings
-- Glen Arbor / Glen Arbor Municipal Beach — traversecity.com listing, visitglenarbor.com
+- Glen Arbor — mynorth.com, Sleeping Bear Resort listing
+- Fishtown, Leland — fishtownmi.org, mynorth.com, Michigan.org
+- Van's Beach, Leland — mynorth.com Leelanau beaches guide, lelandlodge.com, Yelp
+- Old Mission scenic overlook (Center Rd/M-37) — mynorth.com, overlookmaps.com, nsbfoundation.com
 - Farm Club — traversecity.com listing, farmclubtc.com, Yelp
 - Trattoria Stella — traversecity.com, Yelp, michigan.org
 - North of Ordinary (Airbnb) — Airbnb listing
