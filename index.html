@@ -279,6 +279,100 @@
     font-size: 0.78rem;
     margin-top: 28px;
   }
+
+  /* --- Reservations (expandable) --- */
+  details.reservations {
+    padding: 18px;
+  }
+  details.reservations summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  details.reservations summary::-webkit-details-marker { display: none; }
+  details.reservations summary .chevron {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    transition: transform var(--dur-base, 0.25s) var(--ease);
+  }
+  details.reservations[open] summary .chevron { transform: rotate(180deg); }
+  details.reservations summary .count {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.68rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    margin-right: auto;
+    margin-left: 8px;
+  }
+
+  .res-alert {
+    margin-top: 14px;
+    padding: 12px 14px;
+    border-radius: 12px;
+    background: color-mix(in srgb, var(--primary) 10%, transparent);
+    border: 1px solid color-mix(in srgb, var(--primary) 30%, transparent);
+  }
+  .res-alert .res-alert-title {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    color: var(--primary);
+  }
+  .res-alert ul {
+    margin: 8px 0 0;
+    padding-left: 18px;
+    font-size: 0.85rem;
+  }
+  .res-alert li { margin-bottom: 5px; }
+  .res-alert li:last-child { margin-bottom: 0; }
+  .res-alert .fee {
+    display: block;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+  }
+  .res-alert-note {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed color-mix(in srgb, var(--primary) 30%, transparent);
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+
+  ul.res-list {
+    list-style: none;
+    margin: 14px 0 0;
+    padding: 0;
+  }
+  ul.res-list li {
+    padding: 10px 0;
+    border-top: 1px solid var(--border);
+  }
+  ul.res-list li:first-child { border-top: none; }
+  .res-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .res-sub {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-top: 2px;
+  }
+  .res-cancel {
+    font-size: 0.78rem;
+    color: var(--primary);
+    margin-top: 4px;
+    font-weight: 600;
+  }
 </style>
 </head>
 <body>
@@ -353,6 +447,48 @@
       <li><span class="time">Depart</span><span class="what">4 hr drive home — expect Labor Day traffic</span></li>
     </ul>
   </div>
+</section>
+
+<section>
+  <details class="card reservations">
+    <summary>
+      <span>Reservations</span>
+      <span class="count">2 to watch</span>
+      <span class="chevron">⌄</span>
+    </summary>
+
+    <div class="res-alert">
+      <div class="res-alert-title">Cancel by, to avoid fees</div>
+      <ul>
+        <li><b>PepeNero</b> — by Fri, Sep 4, 4:30 PM<span class="fee">$25 + tax/guest after</span></li>
+        <li><b>Trattoria Stella</b> — by Sun, Sep 6, 12:00 PM (noon)<span class="fee">$25/guest after</span></li>
+        <li><b>Artisan</b> — no published deadline, call ahead ASAP once decided<span class="fee">$25/person no-show fee</span></li>
+      </ul>
+      <div class="res-alert-note">Artisan and PepeNero are both booked as backups for the same 6:30 PM Sat slot — once you pick one (or The Boathouse clears), cancel the other two.</div>
+    </div>
+
+    <ul class="res-list">
+      <li>
+        <div class="res-head"><span>The Boathouse</span><span class="pill waitlist">waitlist</span></div>
+        <div class="res-sub">Sat, Sep 5 · 6:30 PM · 2 people · OpenTable notify alert, no table yet</div>
+      </li>
+      <li>
+        <div class="res-head"><span>Artisan — Traverse City</span><span class="pill backup">backup</span></div>
+        <div class="res-sub">Sat, Sep 5 · 6:30 PM · 2 people · Pergola outdoor dining · OpenTable</div>
+        <div class="res-cancel">Call ahead if cancelling — $25/person no-show fee</div>
+      </li>
+      <li>
+        <div class="res-head"><span>PepeNero</span><span class="pill backup">backup</span></div>
+        <div class="res-sub">Sat, Sep 5 · 6:30 PM · 2 guests · Outdoor seating · Resy</div>
+        <div class="res-cancel">Cancel by Fri, Sep 4, 4:30 PM — after that, $25 + tax/guest</div>
+      </li>
+      <li>
+        <div class="res-head"><span>Trattoria Stella</span><span class="pill confirmed">confirmed</span></div>
+        <div class="res-sub">Sun, Sep 6 · 7:15 PM · 2 guests · Resy</div>
+        <div class="res-cancel">Cancel by Sun, Sep 6, 12:00 PM (noon) — after that, $25/guest</div>
+      </li>
+    </ul>
+  </details>
 </section>
 
 <footer>Who to call: just 911 — local Michigan trip.</footer>
