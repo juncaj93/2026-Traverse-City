@@ -263,6 +263,15 @@
   .pill.confirmed { background: color-mix(in srgb, var(--secondary) 18%, transparent); color: var(--secondary); }
   .pill.backup { background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent); }
   .pill.waitlist { background: color-mix(in srgb, var(--primary) 18%, transparent); color: var(--primary); }
+  .pill.optional { background: color-mix(in srgb, var(--text-muted) 18%, transparent); color: var(--text-muted); }
+
+  ul.timeline li.optional {
+    opacity: 0.85;
+  }
+  ul.timeline li.optional .what {
+    border-left: 2px dashed var(--border);
+    padding-left: 8px;
+  }
 
   footer {
     text-align: center;
@@ -323,10 +332,11 @@
   <div class="card day-card day-2">
     <div class="day-badge">Day 2 · Sun, Sep 6</div>
     <h2>Suttons Bay, Leland &amp; Glen Arbor</h2>
-    <div class="day-note">Up around Suttons Bay, Leland, and Glen Arbor — Leland's Van's Beach for the Lake Michigan stop, Farm Club on the way back.</div>
+    <div class="day-note">Up around Suttons Bay, Leland, and Glen Arbor — Leland's Van's Beach for the Lake Michigan stop, an optional hike on the way to Glen Arbor, Farm Club on the way back.</div>
     <ul class="timeline">
       <li><span class="time">10:00 AM</span><span class="what">Leave rental, drive up through <b>Suttons Bay</b><span class="sub">coffee + browse downtown</span></span></li>
       <li><span class="time">11:30 AM</span><span class="what"><b>Fishtown &amp; Van's Beach — Leland</b><span class="sub">historic shanties, harbor walk, beach time on Lake Michigan</span></span></li>
+      <li class="optional"><span class="time">1:00 PM</span><span class="what">Optional hike<span class="pill optional">pick one</span><span class="sub">Pyramid Point (2.7 mi loop, ~1–1.5 hrs, Manitou Islands overlook) or Bay View Farm Loop (2.4 mi, easier) — both trailheads sit right on M-22 between Leland and Glen Arbor. Skip if the morning's running long.</span></span></li>
       <li><span class="time">1:30 PM</span><span class="what"><b>Lunch in Glen Arbor</b></span></li>
       <li><span class="time">3:15 PM</span><span class="what"><b>Farm Club</b><span class="sub">10051 S Lake Leelanau Dr · relax, drinks, market</span></span></li>
       <li><span class="time">7:15 PM</span><span class="what"><b>Dinner — Trattoria Stella</b><span class="pill confirmed">confirmed</span><span class="sub">830 Cottageview Dr · cancel by noon to avoid $25/guest fee</span></span></li>

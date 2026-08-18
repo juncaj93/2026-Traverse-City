@@ -102,13 +102,35 @@ previous vague "Glen Arbor beach," so that's the Lake Michigan stop for
 the day. Still condensed on purpose — a relaxed drive-up weekend, not a
 packed touring day.
 
+**Optional hike, Leland → Glen Arbor stretch** — the Port Oneida Road
+and Thoreson Road trailheads (Pyramid Point and Bay View) both branch
+off M-22 in the same few miles between Leland and Glen Arbor, so either
+one drops right into the drive without a real detour. No obligation —
+pick one only if the morning's moving fast and legs/weather cooperate;
+skip straight to Glen Arbor lunch otherwise. Rough add: 1–1.5 hrs.
+- **Pyramid Point full loop** — 2.7 mi loop, moderate (short, steep
+  climbs + sandy sections, ~550 ft gain), 1–1.5 hrs. Bluff overlook 300
+  ft above Lake Michigan with the Manitou Islands in view. Trailhead: M-22
+  north from Glen Arbor ~3.7 mi, turn onto Port Oneida Rd to its end,
+  then Basch Rd to the lot.
+  Maps: https://www.google.com/maps/search/?api=1&query=Pyramid+Point+Trailhead%2C+Basch+Rd%2C+Leelanau+County%2C+MI
+- **Bay View Trail (Farm Loop)** — 2.4 mi, easier, ~45 min–1 hr. Rolling
+  former farmland of the Port Oneida Historic District with a Lake
+  Michigan overlook at Lookout Point. Trailhead: second Thoreson Rd
+  junction off M-22, ~3.5 mi north of Glen Arbor.
+  Maps: https://www.google.com/maps/search/?api=1&query=Bay+View+Trailhead%2C+Thoreson+Rd%2C+Leelanau+County%2C+MI
+- *(Alligator Hill is the third option here but its trailhead is off
+  M-109 near the Dune Climp/D.H. Day Campground, south of Glen Arbor —
+  a real detour rather than something on this route, so only worth it as
+  its own separate outing.)*
+
 | Time | What |
 |---|---|
 | 10:00 AM | Leave the rental, drive up through Suttons Bay (~25 min) |
 | 10:30–11:00 AM | Coffee + browse downtown Suttons Bay |
 | 11:00–11:30 AM | Drive to Leland (~25 min) |
 | 11:30 AM–1:00 PM | Fishtown + Van's Beach, Leland |
-| 1:00–1:30 PM | Drive to Glen Arbor (~20 min) |
+| 1:00–1:30 PM | Drive toward Glen Arbor, optional stop: Pyramid Point or Bay View Trail (~1–1.5 hrs if taken) |
 | 1:30–2:30 PM | Lunch in Glen Arbor |
 | 2:30–3:15 PM | Drive back to Traverse City (~45 min) |
 | 3:15–5:45 PM | Farm Club — relax, drinks, wander the market |
@@ -158,6 +180,9 @@ Local trip in Michigan — just 911 for any emergency, no separate contact list 
 - Fishtown, Leland — fishtownmi.org, mynorth.com, Michigan.org
 - Van's Beach, Leland — mynorth.com Leelanau beaches guide, lelandlodge.com, Yelp
 - Old Mission scenic overlook (Center Rd/M-37) — mynorth.com, overlookmaps.com, nsbfoundation.com
+- Pyramid Point Trail — nps.gov, friendsofsleepingbear.org, mymichiganbeach.com
+- Bay View Trail — nps.gov, friendsofsleepingbear.org, upnorthtrails.org
+- Alligator Hill Trail (noted as a separate outing, not used this trip) — nps.gov, alltrails.com, upnorthtrails.org
 - Farm Club — traversecity.com listing, farmclubtc.com, Yelp
 - Trattoria Stella — traversecity.com, Yelp, michigan.org
 - North of Ordinary (Airbnb) — Airbnb listing
