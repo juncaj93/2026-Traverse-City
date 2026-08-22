@@ -61,29 +61,19 @@
 
   header.hero {
     text-align: center;
-    padding: 12px 0 28px;
+    padding: 8px 0 12px;
   }
 
   header.hero h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 700;
     letter-spacing: -0.01em;
   }
 
   header.hero .dates {
-    margin-top: 6px;
+    margin-top: 4px;
     color: var(--text-muted);
-    font-size: 0.95rem;
-  }
-
-  header.hero .who {
-    margin-top: 10px;
-    display: inline-block;
-    font-weight: 600;
-    color: var(--secondary);
     font-size: 0.9rem;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
   }
 
   section {
@@ -208,13 +198,6 @@
     margin-bottom: 2px;
   }
 
-  .day-note {
-    font-size: 0.82rem;
-    color: var(--text-muted);
-    margin-top: 4px;
-    margin-bottom: 10px;
-  }
-
   ul.timeline {
     list-style: none;
     margin: 10px 0 0;
@@ -264,6 +247,8 @@
   .pill.backup { background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent); }
   .pill.waitlist { background: color-mix(in srgb, var(--primary) 18%, transparent); color: var(--primary); }
   .pill.optional { background: color-mix(in srgb, var(--text-muted) 18%, transparent); color: var(--text-muted); }
+  .pill.a { background: color-mix(in srgb, var(--secondary) 18%, transparent); color: var(--secondary); }
+  .pill.b { background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent); }
 
   ul.timeline li.optional {
     opacity: 0.85;
@@ -273,12 +258,27 @@
     padding-left: 8px;
   }
 
-  footer {
-    text-align: center;
-    color: var(--text-muted);
-    font-size: 0.78rem;
-    margin-top: 28px;
+  .hike-options {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
   }
+  .hike-opt {
+    font-size: 0.82rem;
+  }
+  .hike-opt .pill {
+    margin-left: 0;
+    margin-right: 6px;
+  }
+
+  /* --- Inline clickable place names --- */
+  a.maploc {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px dashed color-mix(in srgb, currentColor 40%, transparent);
+  }
+  a.maploc:active { opacity: 0.6; }
 
   /* --- Reservations (expandable) --- */
   details.reservations {
@@ -380,7 +380,6 @@
 <header class="hero">
   <h1>Weekend Up North</h1>
   <div class="dates">Sep 5–7, 2026 · Traverse City, MI</div>
-  <div class="who">Alex + Maura</div>
 </header>
 
 <section>
@@ -414,10 +413,10 @@
     <ul class="timeline">
       <li><span class="time">8:00 AM</span><span class="what">Leave Wixom — 4 hr drive + a stop</span></li>
       <li><span class="time">~1:00 PM</span><span class="what">Arrive in Traverse City</span></li>
-      <li><span class="time">1:00 PM</span><span class="what"><b>Lunch — Jolly Pumpkin</b><span class="sub">13512 Peninsula Dr · on Old Mission, right on West Bay</span></span></li>
-      <li><span class="time">2:30 PM</span><span class="what">Scenic overlook, Center Rd (M-37)<span class="sub">both bays at once, on the way up the peninsula</span></span></li>
+      <li class="optional"><span class="time">1:00 PM</span><span class="what"><b>Lunch</b><span class="pill optional">flexible</span><span class="sub">Wherever looks good — <a class="maploc" href="https://maps.apple.com/?address=13512+Peninsula+Dr,+Traverse+City,+MI+49686&q=Jolly+Pumpkin" target="_blank" rel="noopener">Jolly Pumpkin</a> (Old Mission, right on West Bay) is the default if nothing else grabs you</span></span></li>
+      <li><span class="time">2:30 PM</span><span class="what">Scenic overlook, Center Rd (M-37)<span class="sub">both bays at once, near <a class="maploc" href="https://maps.apple.com/?address=12011+Center+Rd,+Traverse+City,+MI+49685&q=Bonobo+Winery" target="_blank" rel="noopener">Bonobo Winery</a>, on the way up the peninsula</span></span></li>
       <li><span class="time">4:00 PM</span><span class="what">Check in at North of Ordinary</span></li>
-      <li><span class="time">6:30 PM</span><span class="what"><b>Dinner</b><span class="pill waitlist">waitlist</span><span class="sub">The Boathouse if it clears — otherwise Artisan<span class="pill backup">backup</span> or PepeNero<span class="pill backup">backup</span>, both booked 6:30 PM. Cancel the two you don't use.</span></span></li>
+      <li><span class="time">6:30 PM</span><span class="what"><b>Dinner</b><span class="pill waitlist">waitlist</span><span class="sub"><a class="maploc" href="https://maps.apple.com/?address=14039+Peninsula+Dr,+Traverse+City,+MI+49686&q=The+Boathouse" target="_blank" rel="noopener">The Boathouse</a> if it clears — otherwise <a class="maploc" href="https://maps.apple.com/?address=615+E+Front+St,+Traverse+City,+MI+49686&q=Artisan" target="_blank" rel="noopener">Artisan</a><span class="pill backup">backup</span> or <a class="maploc" href="https://maps.apple.com/?address=700+Cottageview+Dr,+Traverse+City,+MI+49684&q=PepeNero" target="_blank" rel="noopener">PepeNero</a><span class="pill backup">backup</span>, both booked 6:30 PM. Cancel whichever you don't use — PepeNero by Fri, Sep 4, 4:30 PM (else $25+tax/guest), Artisan by calling ahead ASAP (no published deadline, $25/person no-show fee).</span></span></li>
     </ul>
   </div>
 </section>
@@ -426,14 +425,23 @@
   <div class="card day-card day-2">
     <div class="day-badge">Day 2 · Sun, Sep 6</div>
     <h2>Suttons Bay, Leland &amp; Glen Arbor</h2>
-    <div class="day-note">Up around Suttons Bay, Leland, and Glen Arbor — Leland's Van's Beach for the Lake Michigan stop, an optional hike on the way to Glen Arbor, Farm Club on the way back.</div>
     <ul class="timeline">
-      <li><span class="time">10:00 AM</span><span class="what">Leave rental, drive up through <b>Suttons Bay</b><span class="sub">coffee + browse downtown</span></span></li>
-      <li><span class="time">11:30 AM</span><span class="what"><b>Fishtown &amp; Van's Beach — Leland</b><span class="sub">historic shanties, harbor walk, beach time on Lake Michigan</span></span></li>
-      <li class="optional"><span class="time">1:00 PM</span><span class="what">Optional hike<span class="pill optional">pick one</span><span class="sub">Pyramid Point (2.7 mi loop, ~1–1.5 hrs, Manitou Islands overlook) or Bay View Farm Loop (2.4 mi, easier) — both trailheads sit right on M-22 between Leland and Glen Arbor. Skip if the morning's running long.</span></span></li>
-      <li><span class="time">1:30 PM</span><span class="what"><b>Lunch in Glen Arbor</b></span></li>
-      <li><span class="time">3:15 PM</span><span class="what"><b>Farm Club</b><span class="sub">10051 S Lake Leelanau Dr · relax, drinks, market</span></span></li>
-      <li><span class="time">7:15 PM</span><span class="what"><b>Dinner — Trattoria Stella</b><span class="pill confirmed">confirmed</span><span class="sub">830 Cottageview Dr · cancel by noon to avoid $25/guest fee</span></span></li>
+      <li><span class="time">10:00 AM</span><span class="what">Drive through <a class="maploc" href="https://maps.apple.com/?q=Suttons+Bay,+MI" target="_blank" rel="noopener"><b>Suttons Bay</b></a><span class="sub">coffee + browse downtown</span></span></li>
+      <li><span class="time">11:30 AM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Fishtown,+Leland,+MI" target="_blank" rel="noopener">Fishtown</a> &amp; <a class="maploc" href="https://maps.apple.com/?q=Van%27s+Beach,+Leland,+MI" target="_blank" rel="noopener">Van's Beach</a> — Leland</b><span class="sub">historic shanties, harbor walk, beach time</span></span></li>
+      <li class="optional">
+        <span class="time">1:00 PM</span>
+        <span class="what">
+          Optional hike<span class="pill optional">pick one</span>
+          <div class="hike-options">
+            <div class="hike-opt"><span class="pill a">A</span><a class="maploc" href="https://maps.apple.com/?q=Pyramid+Point+Trailhead,+Leelanau+County,+MI" target="_blank" rel="noopener">Pyramid Point</a> — 2.7 mi loop, ~1–1.5 hrs, Manitou Islands overlook</div>
+            <div class="hike-opt"><span class="pill b">B</span><a class="maploc" href="https://maps.apple.com/?q=Bay+View+Trailhead,+Leelanau+County,+MI" target="_blank" rel="noopener">Bay View Farm Loop</a> — 2.4 mi, easier</div>
+          </div>
+          <span class="sub">Both trailheads sit right on M-22 between Leland and Glen Arbor. Skip if the morning's running long.</span>
+        </span>
+      </li>
+      <li><span class="time">1:30 PM</span><span class="what"><b>Lunch in <a class="maploc" href="https://maps.apple.com/?q=Glen+Arbor,+MI" target="_blank" rel="noopener">Glen Arbor</a></b></span></li>
+      <li><span class="time">3:15 PM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?address=10051+S+Lake+Leelanau+Dr,+Traverse+City,+MI+49684&q=Farm+Club" target="_blank" rel="noopener">Farm Club</a></b><span class="sub">relax, drinks, market</span></span></li>
+      <li><span class="time">7:15 PM</span><span class="what"><b>Dinner — <a class="maploc" href="https://maps.apple.com/?address=830+Cottageview+Dr,+Traverse+City,+MI+49684&q=Trattoria+Stella" target="_blank" rel="noopener">Trattoria Stella</a></b><span class="pill confirmed">confirmed</span><span class="sub">cancel by noon to avoid $25/guest fee</span></span></li>
     </ul>
   </div>
 </section>
@@ -469,29 +477,27 @@
 
     <ul class="res-list">
       <li>
-        <div class="res-head"><span>The Boathouse</span><span class="pill waitlist">waitlist</span></div>
+        <div class="res-head"><span><a class="maploc" href="https://maps.apple.com/?address=14039+Peninsula+Dr,+Traverse+City,+MI+49686&q=The+Boathouse" target="_blank" rel="noopener">The Boathouse</a></span><span class="pill waitlist">waitlist</span></div>
         <div class="res-sub">Sat, Sep 5 · 6:30 PM · 2 people · OpenTable notify alert, no table yet</div>
       </li>
       <li>
-        <div class="res-head"><span>Artisan — Traverse City</span><span class="pill backup">backup</span></div>
+        <div class="res-head"><span><a class="maploc" href="https://maps.apple.com/?address=615+E+Front+St,+Traverse+City,+MI+49686&q=Artisan" target="_blank" rel="noopener">Artisan — Traverse City</a></span><span class="pill backup">backup</span></div>
         <div class="res-sub">Sat, Sep 5 · 6:30 PM · 2 people · Pergola outdoor dining · OpenTable</div>
         <div class="res-cancel">Call ahead if cancelling — $25/person no-show fee</div>
       </li>
       <li>
-        <div class="res-head"><span>PepeNero</span><span class="pill backup">backup</span></div>
+        <div class="res-head"><span><a class="maploc" href="https://maps.apple.com/?address=700+Cottageview+Dr,+Traverse+City,+MI+49684&q=PepeNero" target="_blank" rel="noopener">PepeNero</a></span><span class="pill backup">backup</span></div>
         <div class="res-sub">Sat, Sep 5 · 6:30 PM · 2 guests · Outdoor seating · Resy</div>
         <div class="res-cancel">Cancel by Fri, Sep 4, 4:30 PM — after that, $25 + tax/guest</div>
       </li>
       <li>
-        <div class="res-head"><span>Trattoria Stella</span><span class="pill confirmed">confirmed</span></div>
+        <div class="res-head"><span><a class="maploc" href="https://maps.apple.com/?address=830+Cottageview+Dr,+Traverse+City,+MI+49684&q=Trattoria+Stella" target="_blank" rel="noopener">Trattoria Stella</a></span><span class="pill confirmed">confirmed</span></div>
         <div class="res-sub">Sun, Sep 6 · 7:15 PM · 2 guests · Resy</div>
         <div class="res-cancel">Cancel by Sun, Sep 6, 12:00 PM (noon) — after that, $25/guest</div>
       </li>
     </ul>
   </details>
 </section>
-
-<footer>Who to call: just 911 — local Michigan trip.</footer>
 
 <script>
   (function () {
