@@ -148,7 +148,8 @@ skip straight to Glen Arbor lunch otherwise. Rough add: 1–1.5 hrs.
 - **Van's Beach, Leland** — Lake Michigan beach at the end of Cedar St,
   right next to Fishtown (walkable from it), known for its sunset views
   of the Manitou Islands and blue-stone hunting along the shore.
-  Maps: https://www.google.com/maps/search/?api=1&query=Van%27s+Beach%2C+Cedar+St%2C+Leland%2C+MI+49654
+  205 Cedar St, Leland, MI 49654
+  Maps: https://www.google.com/maps/search/?api=1&query=205+Cedar+St%2C+Leland%2C+MI+49654
 - **Glen Arbor** — village at the edge of Sleeping Bear Dunes; lunch
   options along M-22.
   Maps: https://www.google.com/maps/search/?api=1&query=Glen+Arbor%2C+MI
