@@ -124,11 +124,29 @@ skip straight to Glen Arbor lunch otherwise. Rough add: 1–1.5 hrs.
   a real detour rather than something on this route, so only worth it as
   its own separate outing.)*
 
+**Optional detour, Suttons Bay → Leland stretch** — Northport sits at
+the very tip of the peninsula, between the two on the M-22 loop (20 min
+from Suttons Bay, then 17 min on to Leland — vs. 15 min straight from
+Suttons Bay to Leland if skipped). Adds roughly 1–1.5 hrs round trip
+including time there. Worth it for the Grand Traverse Lighthouse and
+the view from the literal tip of the peninsula; skip it if the morning
+is already running behind.
+- **Grand Traverse Lighthouse / Leelanau State Park** — 1858 lighthouse
+  (seasonal tower tours) at the northernmost point of the peninsula,
+  8.5 mi of trails, Lake Michigan shoreline. $5/adult + state park
+  vehicle fee (Recreation Passport, ~$13/day if not already on your
+  plate/registration).
+  15500 N Lighthouse Point Rd, Northport, MI 49670
+  Maps: https://www.google.com/maps/search/?api=1&query=15500+N+Lighthouse+Point+Rd%2C+Northport%2C+MI+49670
+- **Downtown Northport** — small harbor town, shops, a beach or two
+  (Northport Beach, Christmas Cove) if the lighthouse alone isn't enough.
+  Maps: https://www.google.com/maps/search/?api=1&query=Northport%2C+MI
+
 | Time | What |
 |---|---|
 | 10:00 AM | Leave the rental, drive up through Suttons Bay (~25 min) |
 | 10:30–11:00 AM | Coffee + browse downtown Suttons Bay |
-| 11:00–11:30 AM | Drive to Leland (~25 min) |
+| 11:00–11:30 AM | Drive to Leland (~25 min), *or* detour via Northport (optional, +1–1.5 hrs — see above) |
 | 11:30 AM–1:00 PM | Fishtown + Van's Beach, Leland |
 | 1:00–1:30 PM | Drive toward Glen Arbor, optional stop: Pyramid Point or Bay View Trail (~1–1.5 hrs if taken) |
 | 1:30–2:30 PM | Lunch in Glen Arbor |
@@ -184,6 +202,8 @@ Local trip in Michigan — just 911 for any emergency, no separate contact list 
 - Pyramid Point Trail — nps.gov, friendsofsleepingbear.org, mymichiganbeach.com
 - Bay View Trail — nps.gov, friendsofsleepingbear.org, upnorthtrails.org
 - Alligator Hill Trail (noted as a separate outing, not used this trip) — nps.gov, alltrails.com, upnorthtrails.org
+- Grand Traverse Lighthouse / Leelanau State Park, Northport — traversecity.com, grandtraverselighthouse.com, michigan.gov/recsearch
+- Northport drive times (Suttons Bay/Leland) — distance-cities.com, mymichiganbeach.com
 - Farm Club — traversecity.com listing, farmclubtc.com, Yelp
 - Trattoria Stella — traversecity.com, Yelp, michigan.org
 - North of Ordinary (Airbnb) — Airbnb listing
