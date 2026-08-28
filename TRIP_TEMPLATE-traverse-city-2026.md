@@ -95,19 +95,33 @@ Maps: https://www.google.com/maps/search/?api=1&query=700+Cottageview+Dr%2C+Trav
 
 ### Day 2 — Sun, Sep 6: Suttons Bay, Leland & Glen Arbor
 Per Maura's notes: focus the day up around Glen Arbor and Suttons Bay
-instead of the Old Mission peninsula loop. Leland sits right on M-22
-between the two, so it slots in on the way rather than adding a detour —
-and its beach (Van's Beach) is a better-documented pick than the
-previous vague "Glen Arbor beach," so that's the Lake Michigan stop for
-the day. Still condensed on purpose — a relaxed drive-up weekend, not a
-packed touring day.
+instead of the Old Mission peninsula loop. Family/friends who know the
+area gave four specific beach recommendations — those take priority
+over the original plan, swapped in wherever they fit the route.
+Also worth keeping in mind: it's Labor Day weekend, so the well-known
+spots (Dune Climb, main beach lots) will be at their most crowded all
+year — the quieter, less-official access points below are a better
+bet, both for a calmer day and just generally away from the crowds.
 
-**Optional hike, Leland → Glen Arbor stretch** — the Port Oneida Road
-and Thoreson Road trailheads (Pyramid Point and Bay View) both branch
-off M-22 in the same few miles between Leland and Glen Arbor, so either
-one drops right into the drive without a real detour. No obligation —
-pick one only if the morning's moving fast and legs/weather cooperate;
-skip straight to Glen Arbor lunch otherwise. Rough add: 1–1.5 hrs.
+**Beach or hike stop, Leland → Glen Arbor stretch** — Port Oneida Rd
+and Good Harbor Trail/Bohemian Rd (Good Harbor Bay) both branch off
+M-22 in the same few miles, so any of these four options drops right
+into the drive without a real detour. Pick whichever fits the mood —
+hike, swim, or both if there's time. Rough add: 1–2 hrs depending on
+choice.
+- **Good Harbor Bay Beach** — recommended directly: quiet, few people.
+  Official access is the fee lot at the end of Bohemian Rd (CR-669) off
+  M-22, but the tip we got is better — as you approach on the road in,
+  there's a dirt road on the left; go down it a ways and park on the
+  road itself, then there are several unmarked paths down to the beach
+  with barely anyone around.
+  Maps: https://www.google.com/maps/search/?api=1&query=Good+Harbor+Bay+Beach%2C+Leelanau+County%2C+MI
+- **Port Oneida Beach** — another quiet one: no parking lot, just pull
+  off along unpaved Lane Rd, then a wood stairway down to a beach
+  that's almost always lightly populated. Also the closest beach to the
+  two hikes below.
+  Turn onto Port Oneida Rd from M-22, then left on Lane Rd to the end.
+  Maps: https://www.google.com/maps/search/?api=1&query=Port+Oneida+Beach%2C+Lane+Rd%2C+Leelanau+County%2C+MI
 - **Pyramid Point full loop** — 2.7 mi loop, moderate (short, steep
   climbs + sandy sections, ~550 ft gain), 1–1.5 hrs. Bluff overlook 300
   ft above Lake Michigan with the Manitou Islands in view. Trailhead: M-22
@@ -119,39 +133,44 @@ skip straight to Glen Arbor lunch otherwise. Rough add: 1–1.5 hrs.
   Michigan overlook at Lookout Point. Trailhead: second Thoreson Rd
   junction off M-22, ~3.5 mi north of Glen Arbor.
   Maps: https://www.google.com/maps/search/?api=1&query=Bay+View+Trailhead%2C+Thoreson+Rd%2C+Leelanau+County%2C+MI
-- *(Alligator Hill is the third option here but its trailhead is off
-  M-109 near the Dune Climp/D.H. Day Campground, south of Glen Arbor —
-  a real detour rather than something on this route, so only worth it as
-  its own separate outing.)*
+- *(Alligator Hill dropped from consideration — its trailhead is off
+  M-109 near Glen Haven, a real detour from this stretch. If Glen Haven
+  is on the day's plan anyway, see below.)*
+
+**Optional add-on, past Glen Arbor: Glen Haven** — recommended
+directly, and different from Glen Arbor (easy to mix up the names).
+Small historic district ~10 min west of Glen Arbor with a genuinely
+good, low-key stop: the Sleeping Bear Point Coast Guard Station
+Maritime Museum, open daily 11–5 through Labor Day, with a ranger-led
+breeches buoy rescue re-enactment at 3 PM. Right next to it, Glen Haven
+Beach — pebbly, walkable, good for wading, quieter than the main Dune
+Climb crowds. Adds ~30–45 min round trip from Glen Arbor; only fold it
+in if the day's still got room.
+- **Sleeping Bear Point Maritime Museum** — historic 1901 Life-Saving
+  Station, walk through the boathouse, 3 PM ranger talk/drill.
+  Maps: https://www.google.com/maps/search/?api=1&query=Sleeping+Bear+Point+Maritime+Museum%2C+Glen+Haven%2C+MI+49636
+- **Glen Haven Beach** — pebbly beach on Sleeping Bear Bay, seasonal
+  restrooms nearby, right next to the museum.
+  Maps: https://www.google.com/maps/search/?api=1&query=Glen+Haven+Beach%2C+Glen+Haven%2C+MI+49636
 
 **Optional detour, Suttons Bay → Leland stretch** — Northport sits at
 the very tip of the peninsula, between the two on the M-22 loop (20 min
 from Suttons Bay, then 17 min on to Leland — vs. 15 min straight from
-Suttons Bay to Leland if skipped). Adds roughly 1–1.5 hrs round trip
-including time there. Worth it for the Grand Traverse Lighthouse and
-the view from the literal tip of the peninsula; skip it if the morning
-is already running behind.
-- **Grand Traverse Lighthouse / Leelanau State Park** — 1858 lighthouse
-  (seasonal tower tours) at the northernmost point of the peninsula,
-  8.5 mi of trails, Lake Michigan shoreline. $5/adult + state park
-  vehicle fee (Recreation Passport, ~$13/day if not already on your
-  plate/registration).
-  15500 N Lighthouse Point Rd, Northport, MI 49670
-  Maps: https://www.google.com/maps/search/?api=1&query=15500+N+Lighthouse+Point+Rd%2C+Northport%2C+MI+49670
-- **Downtown Northport** — small harbor town, shops, a beach or two
-  (Northport Beach, Christmas Cove) if the lighthouse alone isn't enough.
-  Maps: https://www.google.com/maps/search/?api=1&query=Northport%2C+MI
+Suttons Bay to Leland if skipped). Lower priority than the beach picks
+above; only worth it if the morning's moving fast. Grand Traverse
+Lighthouse / Leelanau State Park is the draw if taken.
+Maps: https://www.google.com/maps/search/?api=1&query=Grand+Traverse+Lighthouse%2C+Northport%2C+MI+49670
 
 | Time | What |
 |---|---|
-| 10:00 AM | Leave the rental, drive up through Suttons Bay (~25 min) |
-| 10:30–11:00 AM | Coffee + browse downtown Suttons Bay |
-| 11:00–11:30 AM | Drive to Leland (~25 min), *or* detour via Northport (optional, +1–1.5 hrs — see above) |
-| 11:30 AM–1:00 PM | Fishtown + Van's Beach, Leland |
-| 1:00–1:30 PM | Drive toward Glen Arbor, optional stop: Pyramid Point or Bay View Trail (~1–1.5 hrs if taken) |
-| 1:30–2:30 PM | Lunch in Glen Arbor |
-| 2:30–3:15 PM | Drive back to Traverse City (~45 min) |
-| 3:15–5:45 PM | Farm Club — relax, drinks, wander the market |
+| 10:00 AM | Leave the rental, drive through Suttons Bay (~25 min) |
+| 10:15–10:45 AM | Coffee + browse downtown Suttons Bay |
+| 10:45 AM–12:00 PM | Drive to Leland (~25 min, or via Northport, optional) + Fishtown walk |
+| 12:00–12:30 PM | Drive toward Glen Arbor via Port Oneida Rd (~25 min) |
+| 12:30–2:00 PM | Beach or hike stop — pick from the four options above |
+| 2:00–3:00 PM | Lunch in Glen Arbor, walk down to the beach at the end of Lake St |
+| 3:00–4:00 PM | Optional: Glen Haven — Maritime Museum & beach |
+| 4:00–5:45 PM | Drive back + Farm Club — relax, drinks, wander the market |
 | **7:15 PM — confirmed** | **Dinner: Trattoria Stella** |
 
 - **Downtown Suttons Bay** — small Leelanau Peninsula lake town, easy
@@ -160,16 +179,14 @@ is already running behind.
   Maps: https://www.google.com/maps/search/?api=1&query=Suttons+Bay%2C+MI
 - **Fishtown, Leland** — a cluster of preserved 19th-century fishing
   shanties (now shops/eateries) right at the Leland River/Harbor mouth,
-  one of the last working fishing villages on the Great Lakes — a short
-  walk, easy to fold in on the way to Glen Arbor.
+  one of the last working fishing villages on the Great Lakes. Van's
+  Beach is right next door if there's time for a quick walk, but the
+  real beach time is saved for the quieter spots on the way to Glen Arbor.
   Maps: https://www.google.com/maps/search/?api=1&query=Fishtown%2C+Leland%2C+MI
-- **Van's Beach, Leland** — Lake Michigan beach at the end of Cedar St,
-  right next to Fishtown (walkable from it), known for its sunset views
-  of the Manitou Islands and blue-stone hunting along the shore.
-  205 Cedar St, Leland, MI 49654
-  Maps: https://www.google.com/maps/search/?api=1&query=205+Cedar+St%2C+Leland%2C+MI+49654
 - **Glen Arbor** — village at the edge of Sleeping Bear Dunes; lunch
-  options along M-22.
+  options along M-22. Doesn't have much of an official public beach,
+  but Lake St dead-ends at the water next to the boat launch — a quick
+  walk from most spots in the village.
   Maps: https://www.google.com/maps/search/?api=1&query=Glen+Arbor%2C+MI
 - **Farm Club** — farm market, brewery, and restaurant on the way back
   toward town; a repeat spot, casual hang before dinner.
@@ -202,6 +219,10 @@ Local trip in Michigan — just 911 for any emergency, no separate contact list 
 - Pyramid Point Trail — nps.gov, friendsofsleepingbear.org, mymichiganbeach.com
 - Bay View Trail — nps.gov, friendsofsleepingbear.org, upnorthtrails.org
 - Alligator Hill Trail (noted as a separate outing, not used this trip) — nps.gov, alltrails.com, upnorthtrails.org
+- Good Harbor Bay Beach — flashpackingamerica.com, friendsofsleepingbear.org, michiganwatertrails.org, m22byway.org (access-road detail confirmed directly by family/friends who've been)
+- Port Oneida Beach — nps.gov, evendo.com, lifeandwhim.com secluded-beaches guide
+- Glen Arbor Lake St beach access — michiganwatertrails.org, glenarborsun.com FAQ
+- Glen Haven Beach & Sleeping Bear Point Maritime Museum — nps.gov, michiganwatertrails.org, traversecity.com, m22byway.org (recommended directly)
 - Grand Traverse Lighthouse / Leelanau State Park, Northport — traversecity.com, grandtraverselighthouse.com, michigan.gov/recsearch
 - Northport drive times (Suttons Bay/Leland) — distance-cities.com, mymichiganbeach.com
 - Farm Club — traversecity.com listing, farmclubtc.com, Yelp
