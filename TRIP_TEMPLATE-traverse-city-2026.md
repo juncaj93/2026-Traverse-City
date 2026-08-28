@@ -130,11 +130,12 @@ choice.
 - **Port Oneida Beach** — another quiet one: no parking lot, just pull
   off along unpaved Lane Rd, then a wood stairway down to a beach
   that's almost always lightly populated. Also the closest beach to the
-  two hikes below. No official street address — pin below is the
-  general Port Oneida area; the exact secluded spot is a bit further
-  down Lane Rd from there.
+  two hikes below. No official street address; Apple Maps has no listing
+  for this one (a coordinate-based Apple link kept landing wrong), but
+  Google Maps has it correctly as a named place (4.9★, 27 reviews) —
+  use that link instead.
   Turn onto Port Oneida Rd from M-22, then left on Lane Rd to the end.
-  Maps: https://www.google.com/maps/search/?api=1&query=44.93722%2C-85.93639
+  Maps (Google): https://www.google.com/maps/search/?api=1&query=Port+Oneida+Beach
 - **Pyramid Point full loop** — 2.7 mi loop, moderate (short, steep
   climbs + sandy sections, ~550 ft gain), 1–1.5 hrs. Bluff overlook 300
   ft above Lake Michigan with the Manitou Islands in view. Trailhead: M-22
