@@ -59,11 +59,21 @@ double-check on your phone once there.*
 |---|---|
 | 8:00 AM | Leave Wixom (4 hr drive + a stop) |
 | ~12:30–1:00 PM | Arrive in Traverse City |
-| 1:00–2:30 PM | **Lunch: Jolly Pumpkin** — warm-up stop for the trip |
-| 2:30–3:15 PM | Scenic overlook stop, Center Rd (M-37), Old Mission Peninsula |
-| 3:15–4:00 PM | Drive the last stretch to the rental |
+| 1:00–2:45 PM | **Lunch + beach, downtown** — Clinch Park Beach, tons of easy lunch spots within walking distance |
+| 2:45–3:30 PM | Drive up the peninsula (~20 min), scenic overlook stop, Center Rd (M-37) |
+| 3:30–4:00 PM | Last stretch to the rental |
 | 4:00 PM | Check in at North of Ordinary |
 | 6:30 PM | **Dinner** — The Boathouse if the waitlist clears, otherwise Artisan or PepeNero (both booked as backups, see §2) |
+
+**Clinch Park Beach** — the easiest beach-and-lunch pairing there is:
+1,500+ ft of sand right on West Grand Traverse Bay in the middle of
+downtown, lifeguards mid-June–August, snack bar, restrooms, and it's
+steps from most of downtown's restaurants — pick lunch first, walk over
+after, no driving between the two. (Jolly Pumpkin, up on Old Mission,
+is still a fine call instead if skipping downtown — same patio-on-the-
+water vibe, just requires the drive up the peninsula first.)
+101 W Grandview Pkwy, Traverse City, MI 49684
+Maps: https://www.google.com/maps/search/?api=1&query=101+W+Grandview+Pkwy%2C+Traverse+City%2C+MI+49684
 
 **Jolly Pumpkin (Old Mission Peninsula)** — housed in a historic 19th-century
 mansion right on West Grand Traverse Bay; wood-fired pizza, sandwiches,
@@ -128,14 +138,11 @@ choice.
   north from Glen Arbor ~3.7 mi, turn onto Port Oneida Rd to its end,
   then Basch Rd to the lot.
   Maps: https://www.google.com/maps/search/?api=1&query=Pyramid+Point+Trailhead%2C+Basch+Rd%2C+Leelanau+County%2C+MI
-- **Bay View Trail (Farm Loop)** — 2.4 mi, easier, ~45 min–1 hr. Rolling
-  former farmland of the Port Oneida Historic District with a Lake
-  Michigan overlook at Lookout Point. Trailhead: second Thoreson Rd
-  junction off M-22, ~3.5 mi north of Glen Arbor.
-  Maps: https://www.google.com/maps/search/?api=1&query=Bay+View+Trailhead%2C+Thoreson+Rd%2C+Leelanau+County%2C+MI
-- *(Alligator Hill dropped from consideration — its trailhead is off
-  M-109 near Glen Haven, a real detour from this stretch. If Glen Haven
-  is on the day's plan anyway, see below.)*
+- *(Bay View Trail and Alligator Hill dropped — with two beaches and
+  Pyramid Point already on the list, that's enough options for this
+  stop. Bay View's trailhead is right next door on Thoreson Rd if ever
+  wanted later; Alligator Hill is off M-109 near Glen Haven, a real
+  detour from this stretch.)*
 
 **Optional add-on, past Glen Arbor: Glen Haven** — recommended
 directly, and different from Glen Arbor (easy to mix up the names).
@@ -153,29 +160,23 @@ in if the day's still got room.
   restrooms nearby, right next to the museum.
   Maps: https://www.google.com/maps/search/?api=1&query=Glen+Haven+Beach%2C+Glen+Haven%2C+MI+49636
 
-**Optional detour, Suttons Bay → Leland stretch** — Northport sits at
-the very tip of the peninsula, between the two on the M-22 loop (20 min
-from Suttons Bay, then 17 min on to Leland — vs. 15 min straight from
-Suttons Bay to Leland if skipped). Lower priority than the beach picks
-above; only worth it if the morning's moving fast. Grand Traverse
-Lighthouse / Leelanau State Park is the draw if taken.
-Maps: https://www.google.com/maps/search/?api=1&query=Grand+Traverse+Lighthouse%2C+Northport%2C+MI+49670
-
 | Time | What |
 |---|---|
-| 10:00 AM | Leave the rental, drive through Suttons Bay (~25 min) |
-| 10:15–10:45 AM | Coffee + browse downtown Suttons Bay |
-| 10:45 AM–12:00 PM | Drive to Leland (~25 min, or via Northport, optional) + Fishtown walk |
-| 12:00–12:30 PM | Drive toward Glen Arbor via Port Oneida Rd (~25 min) |
-| 12:30–2:00 PM | Beach or hike stop — pick from the four options above |
-| 2:00–3:00 PM | Lunch in Glen Arbor, walk down to the beach at the end of Lake St |
-| 3:00–4:00 PM | Optional: Glen Haven — Maritime Museum & beach |
-| 4:00–5:45 PM | Drive back + Farm Club — relax, drinks, wander the market |
+| 10:00 AM | Leave the rental — Suttons Bay is ~35–40 min away (down the peninsula, then up the shore), so this isn't as early a start as the clock makes it look |
+| 10:40–11:10 AM | Coffee + browse downtown Suttons Bay |
+| 11:10 AM–12:15 PM | Drive to Leland (~25 min) + Fishtown walk |
+| 12:15–12:45 PM | Drive toward Glen Arbor via Port Oneida Rd (~25 min) |
+| 12:45–2:15 PM | Beach or hike stop — pick from the three options above |
+| 2:15–3:15 PM | Lunch in Glen Arbor, walk down to the beach at the end of Lake St |
+| 3:15–4:15 PM | Optional: Glen Haven — Maritime Museum & beach |
+| 4:15–6:00 PM | Drive back + Farm Club — relax, drinks, wander the market |
 | **7:15 PM — confirmed** | **Dinner: Trattoria Stella** |
 
 - **Downtown Suttons Bay** — small Leelanau Peninsula lake town, easy
   walkable main street for coffee and browsing before heading further up.
-  Try Hive Coffee Co. or Mundos Roasting & Co.
+  Try Hive Coffee Co. or Mundos Roasting & Co. ~35–40 min from the
+  rental (down the peninsula through Traverse City, then up the shore) —
+  most of that 10 AM start is the drive, not sleeping in.
   Maps: https://www.google.com/maps/search/?api=1&query=Suttons+Bay%2C+MI
 - **Fishtown, Leland** — a cluster of preserved 19th-century fishing
   shanties (now shops/eateries) right at the Leland River/Harbor mouth,
@@ -188,6 +189,11 @@ Maps: https://www.google.com/maps/search/?api=1&query=Grand+Traverse+Lighthouse%
   but Lake St dead-ends at the water next to the boat launch — a quick
   walk from most spots in the village.
   Maps: https://www.google.com/maps/search/?api=1&query=Glen+Arbor%2C+MI
+  **Backup lunch: Art's Tavern** — easy, great, no-fuss. Local institution
+  since 1934 right on the corner of M-22 and Lake St, burgers and
+  chowder are the move. Cash or check only (ATM nearby).
+  6487 Western Ave, Glen Arbor, MI 49636 · open 7 AM–late, 360 days/yr
+  Maps: https://www.google.com/maps/search/?api=1&query=6487+Western+Ave%2C+Glen+Arbor%2C+MI+49636
 - **Farm Club** — farm market, brewery, and restaurant on the way back
   toward town; a repeat spot, casual hang before dinner.
   10051 S Lake Leelanau Dr, Traverse City, MI 49684 · (231) 252-3079
@@ -223,8 +229,9 @@ Local trip in Michigan — just 911 for any emergency, no separate contact list 
 - Port Oneida Beach — nps.gov, evendo.com, lifeandwhim.com secluded-beaches guide
 - Glen Arbor Lake St beach access — michiganwatertrails.org, glenarborsun.com FAQ
 - Glen Haven Beach & Sleeping Bear Point Maritime Museum — nps.gov, michiganwatertrails.org, traversecity.com, m22byway.org (recommended directly)
-- Grand Traverse Lighthouse / Leelanau State Park, Northport — traversecity.com, grandtraverselighthouse.com, michigan.gov/recsearch
-- Northport drive times (Suttons Bay/Leland) — distance-cities.com, mymichiganbeach.com
+- Clinch Park Beach — traversecitymi.gov, traversecity.com, Yelp
+- Art's Tavern, Glen Arbor — Yelp, artsglenarbor.com, mymichiganbeach.com
+- Rental (Old Mission Peninsula) to Suttons Bay drive time — rome2rio.com, freshexchange.com Old Mission Peninsula guide
 - Farm Club — traversecity.com listing, farmclubtc.com, Yelp
 - Trattoria Stella — traversecity.com, Yelp, michigan.org
 - North of Ordinary (Airbnb) — Airbnb listing
