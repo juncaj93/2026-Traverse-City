@@ -125,13 +125,16 @@ choice.
   there's a dirt road on the left; go down it a ways and park on the
   road itself, then there are several unmarked paths down to the beach
   with barely anyone around.
-  Maps: https://www.google.com/maps/search/?api=1&query=Good+Harbor+Bay+Beach%2C+Leelanau+County%2C+MI
+  Good Harbor Bay Trail, Maple City, MI 49630
+  Maps: https://www.google.com/maps/search/?api=1&query=Good+Harbor+Bay+Trail%2C+Maple+City%2C+MI+49630
 - **Port Oneida Beach** — another quiet one: no parking lot, just pull
   off along unpaved Lane Rd, then a wood stairway down to a beach
   that's almost always lightly populated. Also the closest beach to the
-  two hikes below.
+  two hikes below. No official street address — pin below is the
+  general Port Oneida area; the exact secluded spot is a bit further
+  down Lane Rd from there.
   Turn onto Port Oneida Rd from M-22, then left on Lane Rd to the end.
-  Maps: https://www.google.com/maps/search/?api=1&query=Port+Oneida+Beach%2C+Lane+Rd%2C+Leelanau+County%2C+MI
+  Maps: https://www.google.com/maps/search/?api=1&query=44.93722%2C-85.93639
 - **Pyramid Point full loop** — 2.7 mi loop, moderate (short, steep
   climbs + sandy sections, ~550 ft gain), 1–1.5 hrs. Bluff overlook 300
   ft above Lake Michigan with the Manitou Islands in view. Trailhead: M-22
@@ -146,19 +149,27 @@ choice.
 
 **Optional add-on, past Glen Arbor: Glen Haven** — recommended
 directly, and different from Glen Arbor (easy to mix up the names).
-Small historic district ~10 min west of Glen Arbor with a genuinely
-good, low-key stop: the Sleeping Bear Point Coast Guard Station
-Maritime Museum, open daily 11–5 through Labor Day, with a ranger-led
-breeches buoy rescue re-enactment at 3 PM. Right next to it, Glen Haven
-Beach — pebbly, walkable, good for wading, quieter than the main Dune
-Climb crowds. Adds ~30–45 min round trip from Glen Arbor; only fold it
-in if the day's still got room.
+Small historic district ~10 min west of Glen Arbor. Two distinct things
+here, not the same spot:
 - **Sleeping Bear Point Maritime Museum** — historic 1901 Life-Saving
-  Station, walk through the boathouse, 3 PM ranger talk/drill.
+  Station, open daily 11–5 through Labor Day, walk through the
+  boathouse, ranger-led breeches buoy rescue re-enactment at 3 PM.
   Maps: https://www.google.com/maps/search/?api=1&query=Sleeping+Bear+Point+Maritime+Museum%2C+Glen+Haven%2C+MI+49636
-- **Glen Haven Beach** — pebbly beach on Sleeping Bear Bay, seasonal
-  restrooms nearby, right next to the museum.
+- **Sleeping Bear Point Beach** — the one actually recommended: a real
+  hike, not a walk-up. Trailhead is a short drive past the museum;
+  ~0.5 mi spur off the Sleeping Bear Point Trail out to the dune point
+  itself, overlooking Lake Michigan. 4.8★ (21 reviews). Wear water
+  shoes — the lake bottom out there is rocky.
+  Trailhead: 44.9095082, -86.0420894
+  Maps: https://www.google.com/maps/search/?api=1&query=44.9095082%2C-86.0420894
+- *(Glen Haven Beach — the easy, no-hike pebbly beach right next to the
+  museum parking — is the fallback if the walk out to Sleeping Bear
+  Point doesn't fit the day.)*
   Maps: https://www.google.com/maps/search/?api=1&query=Glen+Haven+Beach%2C+Glen+Haven%2C+MI+49636
+
+Adds ~45 min–1.5 hrs round trip from Glen Arbor depending on whether
+the hike to the point is taken; only fold it in if the day's still got
+room.
 
 | Time | What |
 |---|---|
@@ -167,7 +178,7 @@ in if the day's still got room.
 | 9:40–10:45 AM | Drive to Leland (~25 min) + Fishtown walk |
 | 10:45–11:15 AM | Drive toward Glen Arbor via Port Oneida Rd (~25 min) |
 | 11:15 AM–12:45 PM | Beach or hike stop — pick from the three options above |
-| 12:45–1:30 PM | Lunch in Glen Arbor, walk down to the beach at the end of Lake St |
+| 12:45–1:30 PM | Lunch in Glen Arbor, walk/drive to the beach near The Homestead |
 | 1:30–3:15 PM | Optional: Glen Haven — Maritime Museum (timed for the 3 PM ranger talk) & beach |
 | 3:15–5:45 PM | Drive back + Farm Club — relax, drinks, wander the market |
 | **7:15 PM — confirmed** | **Dinner: Trattoria Stella** |
@@ -185,10 +196,13 @@ in if the day's still got room.
   real beach time is saved for the quieter spots on the way to Glen Arbor.
   Maps: https://www.google.com/maps/search/?api=1&query=Fishtown%2C+Leland%2C+MI
 - **Glen Arbor** — village at the edge of Sleeping Bear Dunes; lunch
-  options along M-22. Doesn't have much of an official public beach,
-  but Lake St dead-ends at the water next to the boat launch — a quick
-  walk from most spots in the village.
+  options along M-22.
   Maps: https://www.google.com/maps/search/?api=1&query=Glen+Arbor%2C+MI
+- **Beach near The Homestead** — recommended directly: no official name
+  or street address, a shoreline access point off Sunset Dr near The
+  Homestead resort, just outside the village.
+  44.9281951, -85.9673420
+  Maps: https://www.google.com/maps/search/?api=1&query=44.9281951%2C-85.9673420
   **Backup lunch: Art's Tavern** — easy, great, no-fuss. Local institution
   since 1934 right on the corner of M-22 and Lake St, burgers and
   chowder are the move. Cash or check only (ATM nearby).
@@ -225,10 +239,11 @@ Local trip in Michigan — just 911 for any emergency, no separate contact list 
 - Pyramid Point Trail — nps.gov, friendsofsleepingbear.org, mymichiganbeach.com
 - Bay View Trail — nps.gov, friendsofsleepingbear.org, upnorthtrails.org
 - Alligator Hill Trail (noted as a separate outing, not used this trip) — nps.gov, alltrails.com, upnorthtrails.org
-- Good Harbor Bay Beach — flashpackingamerica.com, friendsofsleepingbear.org, michiganwatertrails.org, m22byway.org (access-road detail confirmed directly by family/friends who've been)
-- Port Oneida Beach — nps.gov, evendo.com, lifeandwhim.com secluded-beaches guide
-- Glen Arbor Lake St beach access — michiganwatertrails.org, glenarborsun.com FAQ
-- Glen Haven Beach & Sleeping Bear Point Maritime Museum — nps.gov, michiganwatertrails.org, traversecity.com, m22byway.org (recommended directly)
+- Good Harbor Bay Beach — flashpackingamerica.com, friendsofsleepingbear.org, michiganwatertrails.org, m22byway.org, and Google Maps listing (address) confirmed directly against family/friend screenshot
+- Port Oneida Beach — nps.gov, evendo.com, lifeandwhim.com secluded-beaches guide; district coordinates from Wikipedia (Port Oneida Rural Historic District), cross-checked against family/friend screenshot
+- Beach near The Homestead — exact coordinates and locality confirmed directly from family/friend screenshot (no independent listing exists — informal access point)
+- Glen Haven Beach & Sleeping Bear Point Maritime Museum — nps.gov, michiganwatertrails.org, traversecity.com, m22byway.org
+- Sleeping Bear Point Beach & Trailhead — alltrails.com, friendsofsleepingbear.org, theoutbound.com; trailhead coordinates cross-checked against family/friend screenshot
 - Clinch Park Beach — traversecitymi.gov, traversecity.com, Yelp
 - Art's Tavern, Glen Arbor — Yelp, artsglenarbor.com, mymichiganbeach.com
 - Rental (Old Mission Peninsula) to Suttons Bay drive time — rome2rio.com, freshexchange.com Old Mission Peninsula guide
