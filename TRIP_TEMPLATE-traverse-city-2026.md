@@ -63,15 +63,15 @@ double-check on your phone once there.*
 | 2:45–3:30 PM | Drive up the peninsula (~20 min), scenic overlook stop, Center Rd (M-37) |
 | 3:30–4:00 PM | Last stretch to the rental |
 | 4:00 PM | Check in at North of Ordinary |
-| 6:30 PM | **Dinner** — The Boathouse if the waitlist clears, otherwise Artisan or PepeNero (both booked as backups, see §2) |
+| 6:30 PM | **Dinner** — ⏳ The Boathouse (waitlist), or Artisan/PepeNero (booked backups, see §2) |
 
 **Clinch Park Beach** — the easiest beach-and-lunch pairing there is:
 1,500+ ft of sand right on West Grand Traverse Bay in the middle of
 downtown, lifeguards mid-June–August, snack bar, restrooms, and it's
 steps from most of downtown's restaurants — pick lunch first, walk over
-after, no driving between the two. (Jolly Pumpkin, up on Old Mission,
-is still a fine call instead if skipping downtown — same patio-on-the-
-water vibe, just requires the drive up the peninsula first.)
+after, no driving between the two. (Jolly Pumpkin, up on Old Mission, is
+the alternative if skipping downtown — same patio-on-the-water vibe,
+just requires the drive up the peninsula first.)
 101 W Grandview Pkwy, Traverse City, MI 49684
 Maps: https://www.google.com/maps/search/?api=1&query=101+W+Grandview+Pkwy%2C+Traverse+City%2C+MI+49684
 
@@ -162,21 +162,21 @@ in if the day's still got room.
 
 | Time | What |
 |---|---|
-| 10:00 AM | Leave the rental — Suttons Bay is ~35–40 min away (down the peninsula, then up the shore), so this isn't as early a start as the clock makes it look |
-| 10:40–11:10 AM | Coffee + browse downtown Suttons Bay |
-| 11:10 AM–12:15 PM | Drive to Leland (~25 min) + Fishtown walk |
-| 12:15–12:45 PM | Drive toward Glen Arbor via Port Oneida Rd (~25 min) |
-| 12:45–2:15 PM | Beach or hike stop — pick from the three options above |
-| 2:15–3:15 PM | Lunch in Glen Arbor, walk down to the beach at the end of Lake St |
-| 3:15–4:15 PM | Optional: Glen Haven — Maritime Museum & beach |
-| 4:15–6:00 PM | Drive back + Farm Club — relax, drinks, wander the market |
+| 8:30 AM | Leave the rental, latest — Suttons Bay is ~35–40 min away (down the peninsula, then up the shore) |
+| 9:10–9:40 AM | Coffee + browse downtown Suttons Bay |
+| 9:40–10:45 AM | Drive to Leland (~25 min) + Fishtown walk |
+| 10:45–11:15 AM | Drive toward Glen Arbor via Port Oneida Rd (~25 min) |
+| 11:15 AM–12:45 PM | Beach or hike stop — pick from the three options above |
+| 12:45–1:30 PM | Lunch in Glen Arbor, walk down to the beach at the end of Lake St |
+| 1:30–3:15 PM | Optional: Glen Haven — Maritime Museum (timed for the 3 PM ranger talk) & beach |
+| 3:15–5:45 PM | Drive back + Farm Club — relax, drinks, wander the market |
 | **7:15 PM — confirmed** | **Dinner: Trattoria Stella** |
 
 - **Downtown Suttons Bay** — small Leelanau Peninsula lake town, easy
   walkable main street for coffee and browsing before heading further up.
   Try Hive Coffee Co. or Mundos Roasting & Co. ~35–40 min from the
   rental (down the peninsula through Traverse City, then up the shore) —
-  most of that 10 AM start is the drive, not sleeping in.
+  hence leaving by 8:30 AM latest.
   Maps: https://www.google.com/maps/search/?api=1&query=Suttons+Bay%2C+MI
 - **Fishtown, Leland** — a cluster of preserved 19th-century fishing
   shanties (now shops/eateries) right at the Leland River/Harbor mouth,
