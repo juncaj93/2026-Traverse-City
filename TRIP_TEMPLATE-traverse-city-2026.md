@@ -161,8 +161,10 @@ here, not the same spot:
   ~0.5 mi spur off the Sleeping Bear Point Trail out to the dune point
   itself, overlooking Lake Michigan. 4.8★ (21 reviews). Wear water
   shoes — the lake bottom out there is rocky.
-  Trailhead: 44.9095082, -86.0420894
-  Maps: https://www.google.com/maps/search/?api=1&query=44.9095082%2C-86.0420894
+  Trailhead: 44.9095082, -86.0420894. Google Maps has this one as a
+  named place directly (4.8★, 21 reviews, per the screenshot) — use
+  that link rather than the trailhead coordinates.
+  Maps (Google): https://www.google.com/maps/search/?api=1&query=Sleeping+Bear+Point+Beach
 - *(Glen Haven Beach — the easy, no-hike pebbly beach right next to the
   museum parking — is the fallback if the walk out to Sleeping Bear
   Point doesn't fit the day.)*
