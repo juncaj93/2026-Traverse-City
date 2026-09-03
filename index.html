@@ -249,13 +249,10 @@
     margin-left: 6px;
     vertical-align: middle;
   }
-  .pill.confirmed { background: color-mix(in srgb, var(--secondary) 18%, transparent); color: var(--secondary); }
-  .pill.backup { background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent); }
-  .pill.waitlist { background: color-mix(in srgb, var(--primary) 18%, transparent); color: var(--primary); }
+  .pill.booked { background: var(--secondary); color: var(--card); }
   .pill.optional { background: color-mix(in srgb, var(--text-muted) 18%, transparent); color: var(--text-muted); }
   .pill.a { background: color-mix(in srgb, var(--secondary) 18%, transparent); color: var(--secondary); }
   .pill.b { background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent); }
-  .pill.c { background: color-mix(in srgb, var(--primary) 18%, transparent); color: var(--primary); }
 
   ul.timeline li.optional {
     opacity: 0.85;
@@ -279,88 +276,14 @@
     margin-right: 6px;
   }
 
-  .day-note {
-    margin: 8px 0 0;
-    font-size: 0.8rem;
-    line-height: 1.45;
-    color: var(--text-muted);
-  }
-
-  .day-warn {
-    margin-top: 12px;
-    padding: 10px 12px;
-    border-radius: 12px;
-    font-size: 0.78rem;
-    line-height: 1.45;
-    background: color-mix(in srgb, var(--accent) 12%, transparent);
-    border: 1px solid color-mix(in srgb, var(--accent) 32%, transparent);
-  }
-  .day-warn b { color: var(--accent); }
-
-  /* --- Status pills --- */
-  .pill.booked {
-    background: var(--secondary);
-    color: var(--card);
-  }
-  .pill.fixed { background: color-mix(in srgb, var(--primary) 18%, transparent); color: var(--primary); }
-  .pill.pick  { background: color-mix(in srgb, var(--accent) 20%, transparent); color: var(--accent); }
-  .pill.plan {
-    background: transparent;
-    border: 1px solid var(--border);
-    color: var(--text-muted);
-    font-weight: 600;
-    padding: 0 6px;
-  }
-
   ul.timeline li .what .sub.free { color: var(--secondary); font-weight: 600; }
   ul.timeline li .what .sub.deadline { color: var(--primary); font-weight: 600; }
 
-  /* --- Legend --- */
-  .legend-lede {
-    font-family: 'Playfair Display', Georgia, serif;
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.35;
-    margin-bottom: 12px;
-  }
-  .legend-rows {
-    display: grid;
-    gap: 7px;
-  }
-  .legend-row {
-    display: flex;
-    align-items: baseline;
-    gap: 9px;
-    font-size: 0.8rem;
-    color: var(--text-muted);
-    line-height: 1.3;
-  }
-  .legend-row .pill {
-    margin-left: 0;
-    flex: 0 0 auto;
-    min-width: 58px;
-    text-align: center;
-  }
-
-  /* --- Day intro line --- */
-  .day-note {
-    margin: 8px 0 0;
-    font-size: 0.8rem;
-    line-height: 1.45;
-    color: var(--text-muted);
-  }
-
-  /* --- Reservation detail lines --- */
   .res-ok {
     font-size: 0.78rem;
     color: var(--secondary);
     margin-top: 4px;
     font-weight: 600;
-  }
-  .res-note {
-    font-size: 0.75rem;
-    color: var(--text-muted);
-    margin-top: 3px;
   }
 
   .res-swap {
@@ -375,18 +298,13 @@
     font-weight: 700;
     color: var(--accent);
   }
-  .res-swap-note {
-    font-size: 0.78rem;
-    color: var(--text-muted);
-    margin-top: 5px;
-  }
   .res-swap ul {
-    margin: 10px 0 0;
+    margin: 9px 0 0;
     padding-left: 16px;
-    font-size: 0.8rem;
-    line-height: 1.45;
+    font-size: 0.82rem;
+    line-height: 1.5;
   }
-  .res-swap li { margin-bottom: 8px; }
+  .res-swap li { margin-bottom: 5px; }
   .res-swap li:last-child { margin-bottom: 0; }
 
   /* --- Inline clickable place names --- */
@@ -490,32 +408,17 @@
 </section>
 
 <section>
-  <div class="card legend">
-    <div class="legend-lede">Nothing this weekend is locked. Both dinners can be cancelled.</div>
-    <div class="legend-rows">
-      <div class="legend-row"><span class="pill booked">booked</span><span>Reserved. Cancel terms are on it.</span></div>
-      <div class="legend-row"><span class="pill fixed">fixed</span><span>A time we're held to.</span></div>
-      <div class="legend-row"><span class="pill plan">plan</span><span>What we're doing. Nothing to book.</span></div>
-      <div class="legend-row"><span class="pill optional">optional</span><span>Take it or skip it.</span></div>
-      <div class="legend-row"><span class="pill pick">pick one</span><span>Choose on the day.</span></div>
-    </div>
-  </div>
-</section>
-
-<section>
   <div class="card day-card day-1">
     <div class="day-badge">Day 1 · Sat, Sep 5</div>
     <h2>Old Mission &amp; Suttons Bay</h2>
-    <p class="day-note">Stay on the peninsula all afternoon, check in, then head out to Suttons Bay for the evening. Sunset is 8:12.</p>
     <ul class="timeline">
-      <li><span class="time">8:00 AM</span><span class="what">Leave Wixom<span class="sub">~4 hrs + a stop</span></span></li>
-      <li><span class="time">~12:45 PM</span><span class="what">Into Traverse City, straight up the peninsula</span></li>
-      <li class="optional"><span class="time">Lunch</span><span class="what"><b>Wherever you feel like</b><span class="pill optional">optional</span><span class="sub"><a class="maploc" href="https://maps.apple.com/?q=Jolly+Pumpkin,+Traverse+City,+MI" target="_blank" rel="noopener">Jolly Pumpkin</a> on the water is the easy default, right on your way up. Anywhere nearby works</span></span></li>
-      <li><span class="time">~2:00 PM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Mission+Point+Lighthouse,+Old+Mission,+MI" target="_blank" rel="noopener">Old Mission Point Park</a></b><span class="pill plan">plan</span><span class="sub">Beach and ~10 mi of trails at the tip. Or <a class="maploc" href="https://maps.apple.com/?q=Haserot+Beach,+Old+Mission,+MI" target="_blank" rel="noopener">Haserot Beach</a>, smaller with better facilities</span></span></li>
-      <li><span class="time">4:00 PM</span><span class="what"><b>Check in at North of Ordinary</b><span class="pill fixed">fixed</span><span class="sub">Shower, change, unpack. The park is ~15 min away</span></span></li>
-      <li><span class="time">~6:15 PM</span><span class="what">Drive to Suttons Bay<span class="sub">~45 min</span></span></li>
-      <li><span class="time">~7:00 PM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Suttons+Bay,+MI" target="_blank" rel="noopener">Suttons Bay</a></b><span class="pill plan">plan</span><span class="sub">St. Joseph St, the marina, a drink. Sunset 8:12</span></span></li>
-      <li><span class="time">8:15 PM</span><span class="what"><b>Dinner — <a class="maploc" href="https://maps.apple.com/?q=Martha%27s+Leelanau+Table,+Suttons+Bay,+MI" target="_blank" rel="noopener">Martha's Leelanau Table</a></b><span class="pill booked">booked</span><span class="sub free">Free to cancel any time, no fee</span></span></li>
+      <li><span class="time">8:00 AM</span><span class="what">Leave Wixom</span></li>
+      <li><span class="time">~12:45 PM</span><span class="what">Into Traverse City</span></li>
+      <li class="optional"><span class="time">Lunch</span><span class="what"><a class="maploc" href="https://maps.apple.com/?q=Jolly+Pumpkin,+Traverse+City,+MI" target="_blank" rel="noopener">Jolly Pumpkin</a>, or wherever<span class="pill optional">optional</span></span></li>
+      <li><span class="time">~2:00 PM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Mission+Point+Lighthouse,+Old+Mission,+MI" target="_blank" rel="noopener">Old Mission Point Park</a></b></span></li>
+      <li><span class="time">4:00 PM</span><span class="what"><b>Check in</b> at <a class="maploc" href="https://maps.apple.com/?q=1709+Alpine+Road,+Traverse+City,+MI+49686" target="_blank" rel="noopener">North of Ordinary</a></span></li>
+      <li><span class="time">~7:00 PM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Suttons+Bay,+MI" target="_blank" rel="noopener">Suttons Bay</a></b></span></li>
+      <li><span class="time">8:15 PM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Martha%27s+Leelanau+Table,+Suttons+Bay,+MI" target="_blank" rel="noopener">Martha's Leelanau Table</a></b><span class="pill booked">booked</span><span class="sub free">Free to cancel any time</span></span></li>
     </ul>
   </div>
 </section>
@@ -524,27 +427,25 @@
   <div class="card day-card day-2">
     <div class="day-badge">Day 2 · Sun, Sep 6</div>
     <h2>Leland, the beach &amp; Farm Club</h2>
-    <p class="day-note">One run north to south down M-22, then east on M-72 for home. Nothing gets driven twice. The only hard stop is Stella at 7:15.</p>
     <ul class="timeline">
       <li><span class="time">~8:15 AM</span><span class="what">Leave the Airbnb</span></li>
-      <li><span class="time">~9:00 AM</span><span class="what"><b>Coffee — <a class="maploc" href="https://maps.apple.com/?q=Hive+Coffee+Co,+Suttons+Bay,+MI" target="_blank" rel="noopener">Hive Coffee Co.</a></b><span class="pill plan">plan</span><span class="sub">Suttons Bay, opens 8 on Sundays. Straight through on the way north</span></span></li>
-      <li><span class="time">~9:30 AM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Fishtown,+Leland,+MI" target="_blank" rel="noopener">Leland / Fishtown</a></b><span class="pill plan">plan</span><span class="sub"><a class="maploc" href="https://maps.apple.com/?q=Van%27s+Beach,+Leland,+MI" target="_blank" rel="noopener">Van's Beach</a> is a short walk. Grab sandwiches at the <a class="maploc" href="https://maps.apple.com/?q=Village+Cheese+Shanty,+Leland,+MI" target="_blank" rel="noopener">Village Cheese Shanty</a> — call ahead, 231-256-9141</span></span></li>
+      <li><span class="time">~9:00 AM</span><span class="what">Coffee at <b><a class="maploc" href="https://maps.apple.com/?q=Hive+Coffee+Co,+Suttons+Bay,+MI" target="_blank" rel="noopener">Hive Coffee Co.</a></b></span></li>
+      <li><span class="time">~9:30 AM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Fishtown,+Leland,+MI" target="_blank" rel="noopener">Fishtown</a></b> &amp; <a class="maploc" href="https://maps.apple.com/?q=Van%27s+Beach,+Leland,+MI" target="_blank" rel="noopener">Van's Beach</a>, sandwiches from the <a class="maploc" href="https://maps.apple.com/?q=Village+Cheese+Shanty,+Leland,+MI" target="_blank" rel="noopener">Village Cheese Shanty</a></span></li>
       <li>
         <span class="time">~10:50 AM</span>
         <span class="what">
-          <b>Beach</b><span class="pill pick">pick one</span>
-          <span class="sub">Three-plus hours, picnic on the sand</span>
+          <b>Beach</b>
           <div class="opt-list">
-            <div class="opt-row"><span class="pill a">A</span><a class="maploc" href="https://maps.apple.com/?q=Good+Harbor+Bay+Beach,+Maple+City,+MI" target="_blank" rel="noopener">Good Harbor Bay</a> — recommended. Bigger, more open, dirt-road access</div>
-            <div class="opt-row"><span class="pill b">B</span><a class="maploc" href="https://www.google.com/maps/search/?api=1&query=Port+Oneida+Beach" target="_blank" rel="noopener">Port Oneida</a> — smaller, more tucked in, wood stairway down</div>
+            <div class="opt-row"><span class="pill a">A</span><a class="maploc" href="https://maps.apple.com/?q=Good+Harbor+Bay+Beach,+Maple+City,+MI" target="_blank" rel="noopener">Good Harbor Bay</a></div>
+            <div class="opt-row"><span class="pill b">B</span><a class="maploc" href="https://www.google.com/maps/search/?api=1&query=Port+Oneida+Beach" target="_blank" rel="noopener">Port Oneida</a></div>
           </div>
         </span>
       </li>
-      <li><span class="time">~2:15 PM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Glen+Arbor,+MI" target="_blank" rel="noopener">Glen Arbor</a></b><span class="pill plan">plan</span><span class="sub">Right on the road home. Walk the strip, ice cream, a beer at <a class="maploc" href="https://maps.apple.com/?q=Art%27s+Tavern,+Glen+Arbor,+MI" target="_blank" rel="noopener">Art's</a> (cash or check only)</span></span></li>
-      <li class="optional"><span class="time">2 min away</span><span class="what"><a class="maploc" href="https://maps.apple.com/?ll=44.9281951,-85.9673420&q=Beach+near+The+Homestead" target="_blank" rel="noopener">Beach near The Homestead</a><span class="pill optional">optional</span><span class="sub">Informal access off Sunset Dr, if you want one more stretch of water</span></span></li>
-      <li><span class="time">~3:45 PM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Farm+Club,+Traverse+City,+MI" target="_blank" rel="noopener">Farm Club</a></b><span class="pill plan">plan</span><span class="sub">Market and brewery both open at this hour. Call 231-252-3079 to confirm</span></span></li>
-      <li><span class="time">~5:45 PM</span><span class="what"><b>Back at the Airbnb</b><span class="pill fixed">fixed</span><span class="sub">Shower and change. Budget ~45 min before Stella</span></span></li>
-      <li><span class="time">7:15 PM</span><span class="what"><b>Dinner — <a class="maploc" href="https://maps.apple.com/?q=Trattoria+Stella,+Traverse+City,+MI" target="_blank" rel="noopener">Trattoria Stella</a></b><span class="pill booked">booked</span><span class="sub deadline">Free to cancel until noon today. After that, $25/guest</span></span></li>
+      <li><span class="time">~2:15 PM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Glen+Arbor,+MI" target="_blank" rel="noopener">Glen Arbor</a></b> · <a class="maploc" href="https://maps.apple.com/?q=Art%27s+Tavern,+Glen+Arbor,+MI" target="_blank" rel="noopener">Art's Tavern</a><span class="sub">Art's is cash or check only</span></span></li>
+      <li class="optional"><span class="time">Nearby</span><span class="what"><a class="maploc" href="https://maps.apple.com/?ll=44.9281951,-85.9673420&q=Beach+near+The+Homestead" target="_blank" rel="noopener">Beach near The Homestead</a><span class="pill optional">optional</span></span></li>
+      <li><span class="time">~3:45 PM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Farm+Club,+Traverse+City,+MI" target="_blank" rel="noopener">Farm Club</a></b></span></li>
+      <li><span class="time">~5:45 PM</span><span class="what">Back at the Airbnb, shower and change</span></li>
+      <li><span class="time">7:15 PM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Trattoria+Stella,+Traverse+City,+MI" target="_blank" rel="noopener">Trattoria Stella</a></b><span class="pill booked">booked</span><span class="sub deadline">Cancel by noon today</span></span></li>
     </ul>
   </div>
 </section>
@@ -554,8 +455,8 @@
     <div class="day-badge">Day 3 · Mon, Sep 7 · Labor Day</div>
     <h2>Depart</h2>
     <ul class="timeline">
-      <li><span class="time">11:00 AM</span><span class="what">Checkout<span class="pill fixed">fixed</span></span></li>
-      <li><span class="time">Depart</span><span class="what">~4 hr drive home — expect Labor Day traffic</span></li>
+      <li><span class="time">11:00 AM</span><span class="what">Checkout</span></li>
+      <li><span class="time">Depart</span><span class="what">Drive home — expect Labor Day traffic</span></li>
     </ul>
   </div>
 </section>
@@ -571,26 +472,22 @@
     <ul class="res-list">
       <li>
         <div class="res-head"><span><a class="maploc" href="https://maps.apple.com/?q=Martha%27s+Leelanau+Table,+Suttons+Bay,+MI" target="_blank" rel="noopener">Martha's Leelanau Table</a></span><span class="pill booked">booked</span></div>
-        <div class="res-sub">Sat, Sep 5 · 8:15 PM · 2 guests · Sun Room · Tock · TOCK-R-5JN8WQWE</div>
-        <div class="res-sub">413 N St Joseph St, Suttons Bay · (231) 271-2344</div>
-        <div class="res-ok">Free to cancel any time. No fee. They just ask for 24 hrs notice</div>
-        <div class="res-note">Arrive at your exact time — small kitchen, no early seating</div>
+        <div class="res-sub">Sat, Sep 5 · 8:15 PM · 2 guests · Tock · TOCK-R-5JN8WQWE · (231) 271-2344</div>
+        <div class="res-ok">Free to cancel any time, no fee</div>
       </li>
       <li>
         <div class="res-head"><span><a class="maploc" href="https://maps.apple.com/?q=Trattoria+Stella,+Traverse+City,+MI" target="_blank" rel="noopener">Trattoria Stella</a></span><span class="pill booked">booked</span></div>
-        <div class="res-sub">Sun, Sep 6 · 7:15 PM · 2 guests · Resy</div>
-        <div class="res-sub">830 Cottageview Dr Ste G01, Traverse City · (231) 929-8989</div>
-        <div class="res-cancel">Cancel by <b>noon Sunday, Sep 6</b>. After that, $25/guest ($50)</div>
+        <div class="res-sub">Sun, Sep 6 · 7:15 PM · 2 guests · Resy · (231) 929-8989</div>
+        <div class="res-cancel">Cancel by noon Sun, Sep 6 — $25/guest after</div>
       </li>
     </ul>
 
     <div class="res-swap">
-      <div class="res-swap-title">If we'd rather go elsewhere Saturday</div>
-      <div class="res-swap-note">Martha's costs nothing to cancel, so this stays open. All three are in Leelanau, same direction.</div>
+      <div class="res-swap-title">Instead of Martha's</div>
       <ul>
-        <li><b><a class="maploc" href="https://maps.apple.com/?q=The+Riverside+Inn,+Leland,+MI" target="_blank" rel="noopener">The Riverside Inn</a></b> · Leland · Thu–Sun 4:30–8 PM, so an early dinner. Resy or phone, and <b>bar seats are walk-in</b> · (231) 256-9971</li>
-        <li><b><a class="maploc" href="https://maps.apple.com/?q=VI+Grill,+Suttons+Bay,+MI" target="_blank" rel="noopener">VI Grill</a></b> · Suttons Bay · daily 11 AM–10 PM, kitchen till 10. Walk in or call · (231) 271-3300</li>
-        <li><b><a class="maploc" href="https://maps.apple.com/?q=Gilchrist+Farm,+Suttons+Bay,+MI" target="_blank" rel="noopener">Gilchrist Farm</a></b> · Suttons Bay · Fri–Sat 12–8 PM, early dinner only. Call to book · (231) 916-3902</li>
+        <li><a class="maploc" href="https://maps.apple.com/?q=The+Riverside+Inn,+Leland,+MI" target="_blank" rel="noopener">The Riverside Inn</a> · Leland · (231) 256-9971</li>
+        <li><a class="maploc" href="https://maps.apple.com/?q=VI+Grill,+Suttons+Bay,+MI" target="_blank" rel="noopener">VI Grill</a> · Suttons Bay · (231) 271-3300</li>
+        <li><a class="maploc" href="https://maps.apple.com/?q=Gilchrist+Farm,+Suttons+Bay,+MI" target="_blank" rel="noopener">Gilchrist Farm</a> · Suttons Bay · (231) 916-3902</li>
       </ul>
     </div>
   </details>

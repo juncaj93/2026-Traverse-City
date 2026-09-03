@@ -12,18 +12,13 @@ holiday traffic than usual on the drive home.
 
 ## How to read this doc
 
-Every line in the day plans carries a status:
+Two markers only, matching the site:
 
-| Status | Means |
-|---|---|
-| **Booked** | Reserved. Cancel terms are listed on it. |
-| **Fixed** | Time we're held to (check-in, checkout). |
-| **Plan** | What we intend to do. No booking, nothing to cancel. |
-| **Optional** | Take it or skip it. Nothing else depends on it. |
-| **Pick one** | Choose A or B on the day. |
+- **Booked** — reserved. Cancel terms listed on it.
+- **Optional** — take it or skip it, nothing depends on it.
 
-**Nothing this weekend is truly locked.** Both dinners are booked and both
-can be cancelled. Everything else is walk-in, free, or a beach.
+Everything else is just the plan. **Nothing this weekend is locked** — both
+dinners are booked and both can be cancelled.
 
 ## 1. Trip Overview
 
@@ -119,10 +114,10 @@ double-check on your phone once there.*
 | 8:00 AM | Leave Wixom — ~4 hrs + a stop | — |
 | ~12:45 PM | Into Traverse City, straight up the peninsula | — |
 | Early afternoon | **Lunch** — Jolly Pumpkin is the easy default, or anywhere nearby that looks good | Optional |
-| ~2:00–4:00 PM | **Old Mission Point Park** — beach and trails at the tip | Plan |
-| 4:00 PM | **Check in** at North of Ordinary. Shower, change, unpack | Fixed |
+| ~2:00–4:00 PM | **Old Mission Point Park** — beach and trails at the tip | |
+| 4:00 PM | **Check in** at North of Ordinary. Shower, change, unpack | |
 | ~6:15 PM | Drive to Suttons Bay (~45 min) | — |
-| ~7:00–8:15 PM | **Suttons Bay** — St. Joseph St, the marina, a drink. Sunset 8:12 | Plan |
+| ~7:00–8:15 PM | **Suttons Bay** — St. Joseph St, the marina, a drink. Sunset 8:12 | |
 | **8:15 PM** | **Martha's Leelanau Table** | **Booked · free to cancel** |
 
 **Jolly Pumpkin (Old Mission Peninsula)** — *optional.* Historic
@@ -164,15 +159,15 @@ Nothing gets driven twice.
 | Time | What | Status |
 |---|---|---|
 | ~8:15 AM | Leave the Airbnb | — |
-| ~9:00 AM | **Coffee — Hive Coffee Co.**, Suttons Bay. Straight through on the way north | Plan |
-| ~9:30–10:30 AM | **Leland / Fishtown** + Van's Beach. Pick up sandwiches at the **Village Cheese Shanty** | Plan |
-| ~10:50 AM–2:00 PM | **Beach** — three-plus hours, picnic on the sand | **Pick one** |
+| ~9:00 AM | **Coffee — Hive Coffee Co.**, Suttons Bay. Straight through on the way north | |
+| ~9:30–10:30 AM | **Leland / Fishtown** + Van's Beach. Pick up sandwiches at the **Village Cheese Shanty** | |
+| ~10:50 AM–2:00 PM | **Beach** — three-plus hours, picnic on the sand. Pick A or B | |
 | | **A · Good Harbor Bay Beach** *(recommended)* | |
 | | **B · Port Oneida Beach** | |
-| ~2:15–3:00 PM | **Glen Arbor** — right on the road home | Plan |
+| ~2:15–3:00 PM | **Glen Arbor** — right on the road home | |
 | | Homestead beach access off Sunset Dr, 2 min away | Optional |
-| ~3:45–5:00 PM | **Farm Club** — market and brewery both open at this hour | Plan |
-| ~5:45 PM | **Back at the Airbnb** — shower and change | Fixed |
+| ~3:45–5:00 PM | **Farm Club** — market and brewery both open at this hour | |
+| ~5:45 PM | **Back at the Airbnb** — shower and change | |
 | **7:15 PM** | **Trattoria Stella** | **Booked · cancel by noon** |
 
 The only hard stop all day is Stella at 7:15, and you want about 45
@@ -245,7 +240,7 @@ disagree with each other.
 Maps: https://www.google.com/maps/search/?api=1&query=10051+S+Lake+Leelanau+Dr%2C+Traverse+City%2C+MI+49684
 
 ### Day 3 — Mon, Sep 7: Depart (Labor Day)
-- Checkout 11:00 AM · **Fixed**
+- Checkout 11:00 AM
 - Depart — ~4 hr drive, expect Labor Day traffic
 
 ## 5. Who to Call
