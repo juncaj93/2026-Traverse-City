@@ -219,11 +219,6 @@ all year; these two are the opposite of that.
 M-22 between the beach and the road home, so stopping costs no extra
 driving. Walk the strip, ice cream, or a beer.
 Maps: https://www.google.com/maps/search/?api=1&query=Glen+Arbor%2C+MI
-- **Art's Tavern** — local institution since 1934 at M-22 and Lake St.
-  Burgers and chowder. **Cash or check only** (ATM nearby). Open 7 AM–late,
-  360 days a year.
-  6487 Western Ave, Glen Arbor, MI 49636
-  Maps: https://www.google.com/maps/search/?api=1&query=6487+Western+Ave%2C+Glen+Arbor%2C+MI+49636
 - *Optional:* **beach near The Homestead** — informal shoreline access off
   Sunset Dr just outside the village, no official name or address. Two
   minutes away if you want one more stretch of water.
@@ -263,7 +258,6 @@ Local trip in Michigan — just 911 for any emergency, no separate contact list 
 - Port Oneida Beach — nps.gov, evendo.com, lifeandwhim.com secluded-beaches guide; district coordinates from Wikipedia (Port Oneida Rural Historic District), cross-checked against family/friend screenshot
 - Beach near The Homestead — exact coordinates and locality confirmed directly from family/friend screenshot (no independent listing exists — informal access point)
 - Glen Arbor — mynorth.com, Sleeping Bear Resort listing
-- Art's Tavern, Glen Arbor — Yelp, artsglenarbor.com, mymichiganbeach.com
 - Farm Club — traversecity.com listing, farmclubtc.com, Yelp, OpenTable listing (hours conflict noted above)
 - Suttons Bay — traversecity.com, Suttons Bay Chamber
 - Sunset time Sep 5–6, 2026 (~8:10–8:12 PM EDT) — NOAA sunset algorithm computed for Traverse City coordinates
