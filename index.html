@@ -279,6 +279,35 @@
     margin-right: 6px;
   }
 
+  .day-note {
+    margin: 8px 0 0;
+    font-size: 0.8rem;
+    line-height: 1.45;
+    color: var(--text-muted);
+  }
+
+  .day-warn {
+    margin-top: 12px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    font-size: 0.78rem;
+    line-height: 1.45;
+    background: color-mix(in srgb, var(--accent) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--accent) 32%, transparent);
+  }
+  .day-warn b { color: var(--accent); }
+
+  .res-book {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-decoration: none;
+    border-bottom: 1px solid color-mix(in srgb, var(--primary) 40%, transparent);
+  }
+  .res-book:active { opacity: 0.6; }
+
   /* --- Inline clickable place names --- */
   a.maploc {
     color: inherit;
@@ -416,39 +445,43 @@
 <section>
   <div class="card day-card day-1">
     <div class="day-badge">Day 1 · Sat, Sep 5</div>
-    <h2>Arrival</h2>
+    <h2>Arrival &amp; the Leelanau shore</h2>
+    <p class="day-note">Straight through Traverse City onto M-22 north. Suttons Bay on the way up, Leland all afternoon, dinner up north, then down to the rental. Downtown TC waits until Sunday.</p>
     <ul class="timeline">
       <li><span class="time">8:00 AM</span><span class="what">Leave Wixom — 4 hr drive + a stop</span></li>
-      <li><span class="time">~1:00 PM</span><span class="what">Arrive in Traverse City</span></li>
-      <li class="optional"><span class="time">1:00 PM</span><span class="what"><b>Lunch + beach, downtown</b><span class="pill optional">Optional</span><span class="sub"><a class="maploc" href="https://maps.apple.com/?q=Clinch+Park+Beach,+Traverse+City,+MI" target="_blank" rel="noopener">Clinch Park Beach</a>, or <a class="maploc" href="https://maps.apple.com/?q=Jolly+Pumpkin,+Traverse+City,+MI" target="_blank" rel="noopener">Jolly Pumpkin</a> on Old Mission</span></span></li>
-      <li><span class="time">2:45 PM</span><span class="what">Scenic overlook, Center Rd (M-37)<span class="sub">Near <a class="maploc" href="https://maps.apple.com/?q=Bonobo+Winery,+Traverse+City,+MI" target="_blank" rel="noopener">Bonobo Winery</a></span></span></li>
-      <li><span class="time">4:00 PM</span><span class="what">Check in at North of Ordinary</span></li>
+      <li><span class="time">~12:45 PM</span><span class="what">Through Traverse City, onto M-22 north</span></li>
+      <li><span class="time">1:10 PM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Suttons+Bay,+MI" target="_blank" rel="noopener">Suttons Bay</a></b> — lunch + St. Joseph St<span class="sub">Coffee at Hive or Mundos · marina and town beach at the bottom of the street</span></span></li>
+      <li><span class="time">2:30 PM</span><span class="what">Cross to Leland on CR-204<span class="sub">~20–25 min</span></span></li>
+      <li><span class="time">2:55 PM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Fishtown,+Leland,+MI" target="_blank" rel="noopener">Fishtown</a> — Leland</b><span class="sub"><a class="maploc" href="https://maps.apple.com/?q=Van%27s+Beach,+Leland,+MI" target="_blank" rel="noopener">Van's Beach</a> is a few minutes' walk — real time to sit here today</span></span></li>
+      <li class="optional"><span class="time">Detour</span><span class="what"><a class="maploc" href="https://maps.apple.com/?q=Northport,+MI" target="_blank" rel="noopener">Northport</a><span class="pill optional">Optional</span><span class="sub">~22 min past Suttons Bay, ~20 min from Leland · adds ~45 min · casual food only up there</span></span></li>
       <li>
-        <span class="time">6:30 PM</span>
+        <span class="time">5:30 PM</span>
         <span class="what">
-          Dinner
+          <b>Dinner</b> — nothing booked yet
           <div class="opt-list">
-            <div class="opt-row"><span class="pill waitlist">Wait</span><a class="maploc" href="https://maps.apple.com/?q=The+Boathouse,+Traverse+City,+MI" target="_blank" rel="noopener">The Boathouse</a></div>
-            <div class="opt-row"><span class="pill backup">Opt</span><a class="maploc" href="https://maps.apple.com/?q=Artisan,+Traverse+City,+MI" target="_blank" rel="noopener">Artisan</a> — $25/person no-show</div>
-            <div class="opt-row"><span class="pill backup">Opt</span><a class="maploc" href="https://maps.apple.com/?q=PepeNero,+Traverse+City,+MI" target="_blank" rel="noopener">PepeNero</a> — cancel by Fri 4:30 PM</div>
+            <div class="opt-row"><span class="pill a">1</span><a class="maploc" href="https://maps.apple.com/?q=Martha%27s+Leelanau+Table,+Suttons+Bay,+MI" target="_blank" rel="noopener">Martha's Leelanau Table</a> — Suttons Bay, bookable on Tock</div>
+            <div class="opt-row"><span class="pill b">2</span><a class="maploc" href="https://maps.apple.com/?q=The+Riverside+Inn,+Leland,+MI" target="_blank" rel="noopener">The Riverside Inn</a> — Leland, Resy notify · bar seats are walk-in</div>
+            <div class="opt-row"><span class="pill c">3</span><a class="maploc" href="https://maps.apple.com/?q=VI+Grill,+Suttons+Bay,+MI" target="_blank" rel="noopener">VI Grill</a> — Suttons Bay, walk-in, kitchen till 10</div>
           </div>
         </span>
       </li>
+      <li><span class="time">~8:15 PM</span><span class="what">Check in at North of Ordinary<span class="sub">~45 min from Suttons Bay, ~1 hr from Leland</span></span></li>
     </ul>
+    <div class="day-warn"><b>Bags stay in the car until after dinner.</b> 4:00 PM is the earliest you can get in, not a time you have to be there. Want to unpack first instead? Then dinner has to be Suttons Bay and Leland moves to Sunday.</div>
   </div>
 </section>
 
 <section>
   <div class="card day-card day-2">
     <div class="day-badge">Day 2 · Sun, Sep 6</div>
-    <h2>Suttons Bay, Leland &amp; Glen Arbor</h2>
+    <h2>Sleeping Bear, Glen Arbor &amp; TC</h2>
+    <p class="day-note">Out on M-72 west to Empire — a different corridor than Saturday's, so nothing gets driven twice. Work the stops north to south, then back east with the afternoon still open.</p>
     <ul class="timeline">
-      <li><span class="time">8:30 AM</span><span class="what">Drive to <a class="maploc" href="https://maps.apple.com/?q=Suttons+Bay,+MI" target="_blank" rel="noopener"><b>Suttons Bay</b></a><span class="sub">~35–40 min</span></span></li>
-      <li><span class="time">9:10 AM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Fishtown,+Leland,+MI" target="_blank" rel="noopener">Fishtown</a> — Leland</b><span class="sub"><a class="maploc" href="https://maps.apple.com/?q=Van%27s+Beach,+Leland,+MI" target="_blank" rel="noopener">Van's Beach</a> next door</span></span></li>
-      <li class="optional">
-        <span class="time">10:45 AM</span>
+      <li><span class="time">8:00 AM</span><span class="what">Leave the rental — M-72 W to Empire, then M-22 N<span class="sub">~1 hr 10 to Port Oneida</span></span></li>
+      <li>
+        <span class="time">9:10 AM</span>
         <span class="what">
-          Beach or hike stop<span class="pill optional">Optional</span>
+          <b>Beach or hike</b> — pick one
           <div class="opt-list">
             <div class="opt-row"><span class="pill a">A</span><a class="maploc" href="https://maps.apple.com/?q=Good+Harbor+Bay+Beach,+Maple+City,+MI" target="_blank" rel="noopener">Good Harbor Bay Beach</a> — quiet, dirt-road access</div>
             <div class="opt-row"><span class="pill b">B</span><a class="maploc" href="https://www.google.com/maps/search/?api=1&query=Port+Oneida+Beach" target="_blank" rel="noopener">Port Oneida Beach</a> — quiet, unpaved Lane Rd</div>
@@ -456,20 +489,13 @@
           </div>
         </span>
       </li>
-      <li><span class="time">12:45 PM</span><span class="what"><b>Lunch in <a class="maploc" href="https://maps.apple.com/?q=Glen+Arbor,+MI" target="_blank" rel="noopener">Glen Arbor</a></b><span class="sub">Backup: <a class="maploc" href="https://maps.apple.com/?q=Art%27s+Tavern,+Glen+Arbor,+MI" target="_blank" rel="noopener">Art's Tavern</a> · after: <a class="maploc" href="https://maps.apple.com/?ll=44.9281951,-85.9673420&q=Beach+near+The+Homestead" target="_blank" rel="noopener">beach near The Homestead</a></span></span></li>
-      <li class="optional">
-        <span class="time">1:30 PM</span>
-        <span class="what">
-          Glen Haven<span class="pill optional">Optional</span>
-          <div class="opt-list">
-            <div class="opt-row"><a class="maploc" href="https://maps.apple.com/?q=Sleeping+Bear+Point+Maritime+Museum,+Glen+Haven,+MI" target="_blank" rel="noopener">Maritime Museum</a> — 3 PM ranger talk</div>
-            <div class="opt-row"><a class="maploc" href="https://www.google.com/maps/search/?api=1&query=Sleeping+Bear+Point+Beach" target="_blank" rel="noopener">Sleeping Bear Point Beach</a> — hike, water shoes</div>
-          </div>
-        </span>
-      </li>
-      <li><span class="time">3:15 PM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Farm+Club,+Traverse+City,+MI" target="_blank" rel="noopener">Farm Club</a></b></span></li>
+      <li><span class="time">11:35 AM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Glen+Haven,+MI" target="_blank" rel="noopener">Glen Haven</a></b><span class="sub"><a class="maploc" href="https://maps.apple.com/?q=Sleeping+Bear+Point+Maritime+Museum,+Glen+Haven,+MI" target="_blank" rel="noopener">Maritime Museum</a> (open 11–5) · <a class="maploc" href="https://www.google.com/maps/search/?api=1&query=Sleeping+Bear+Point+Beach" target="_blank" rel="noopener">Sleeping Bear Point Beach</a> — hike, water shoes</span></span></li>
+      <li><span class="time">1:15 PM</span><span class="what"><b>Lunch in <a class="maploc" href="https://maps.apple.com/?q=Glen+Arbor,+MI" target="_blank" rel="noopener">Glen Arbor</a></b><span class="sub">Backup: <a class="maploc" href="https://maps.apple.com/?q=Art%27s+Tavern,+Glen+Arbor,+MI" target="_blank" rel="noopener">Art's Tavern</a> (cash or check) · after: <a class="maploc" href="https://maps.apple.com/?ll=44.9281951,-85.9673420&q=Beach+near+The+Homestead" target="_blank" rel="noopener">beach near The Homestead</a></span></span></li>
+      <li><span class="time">3:25 PM</span><span class="what"><b><a class="maploc" href="https://maps.apple.com/?q=Farm+Club,+Traverse+City,+MI" target="_blank" rel="noopener">Farm Club</a></b><span class="sub">Right off the M-72 route home · open till 8, walk-in only</span></span></li>
+      <li><span class="time">5:05 PM</span><span class="what"><b>Downtown Traverse City</b><span class="sub"><a class="maploc" href="https://maps.apple.com/?q=Clinch+Park+Beach,+Traverse+City,+MI" target="_blank" rel="noopener">Clinch Park Beach</a> + Front St, no moving the car</span></span></li>
       <li><span class="time">7:15 PM</span><span class="what"><b>Dinner — <a class="maploc" href="https://maps.apple.com/?q=Trattoria+Stella,+Traverse+City,+MI" target="_blank" rel="noopener">Trattoria Stella</a></b><span class="pill confirmed">confirmed</span><span class="sub">cancel by noon</span></span></li>
     </ul>
+    <div class="day-warn"><b>The 3 PM ranger talk no longer fits.</b> Staying for the breeches buoy re-enactment at Glen Haven puts you back in Traverse City around 4:45 with no downtown time before dinner. Pick one or the other — the museum itself is open 11–5 either way.</div>
   </div>
 </section>
 
@@ -488,34 +514,41 @@
   <details class="card reservations">
     <summary>
       <span>Reservations</span>
-      <span class="count">2 to watch</span>
+      <span class="count">1 booked · 1 to book</span>
       <span class="chevron">⌄</span>
     </summary>
 
     <div class="res-alert">
-      <div class="res-alert-title">Cancel by, to avoid fees</div>
+      <div class="res-alert-title">Saturday dinner is still open</div>
       <ul>
-        <li><b>PepeNero</b> — by Fri, Sep 4, 4:30 PM<span class="fee">$25 + tax/guest after</span></li>
-        <li><b>Trattoria Stella</b> — by Sun, Sep 6, 12:00 PM (noon)<span class="fee">$25/guest after</span></li>
-        <li><b>Artisan</b> — no published deadline, call ahead ASAP once decided<span class="fee">$25/person no-show fee</span></li>
+        <li><b>Book Martha's on Tock</b> to settle it<span class="fee">Leave the Riverside Inn Resy notify running and swap if a table appears</span></li>
+        <li><b>Trattoria Stella</b> — cancel by Sun, Sep 6, 12:00 PM (noon)<span class="fee">$25/guest after that</span></li>
       </ul>
-      <div class="res-alert-note">Artisan and PepeNero are both booked as backups for the same 6:30 PM Sat slot — once you pick one (or The Boathouse clears), cancel the other two.</div>
+      <div class="res-alert-note">All three Saturday bookings in Traverse City are cancelled. Saturday dinner is in Leelanau now, so there is only one TC dinner this trip.</div>
     </div>
 
     <ul class="res-list">
       <li>
-        <div class="res-head"><span><a class="maploc" href="https://maps.apple.com/?q=The+Boathouse,+Traverse+City,+MI" target="_blank" rel="noopener">The Boathouse</a></span><span class="pill waitlist">waitlist</span></div>
-        <div class="res-sub">Sat, Sep 5 · 6:30 PM · 2 people · OpenTable notify alert, no table yet</div>
+        <div class="res-head"><span><a class="maploc" href="https://maps.apple.com/?q=Martha%27s+Leelanau+Table,+Suttons+Bay,+MI" target="_blank" rel="noopener">Martha's Leelanau Table</a></span><span class="pill a">book this</span></div>
+        <div class="res-sub">Suttons Bay · dinner 5–9 PM · French-leaning New American · (231) 271-2344</div>
+        <div class="res-cancel">Arrive at your exact time — small kitchen, no early seating</div>
+        <a class="res-book" href="https://www.exploretock.com/marthasleelanautable/" target="_blank" rel="noopener">Book on Tock →</a>
       </li>
       <li>
-        <div class="res-head"><span><a class="maploc" href="https://maps.apple.com/?q=Artisan,+Traverse+City,+MI" target="_blank" rel="noopener">Artisan — Traverse City</a></span><span class="pill backup">backup</span></div>
-        <div class="res-sub">Sat, Sep 5 · 6:30 PM · 2 people · Pergola outdoor dining · OpenTable</div>
-        <div class="res-cancel">Call ahead if cancelling — $25/person no-show fee</div>
+        <div class="res-head"><span><a class="maploc" href="https://maps.apple.com/?q=The+Riverside+Inn,+Leland,+MI" target="_blank" rel="noopener">The Riverside Inn</a></span><span class="pill waitlist">notify set</span></div>
+        <div class="res-sub">Leland · Thu–Sun 4:30–8 PM, so a 5:30–6:00 seating · (231) 256-9971</div>
+        <div class="res-cancel">Call them directly instead of waiting on Resy — and bar seats are first-come, no reservation</div>
+        <a class="res-book" href="https://resy.com/cities/leland-mi/venues/the-riverside-inn" target="_blank" rel="noopener">Riverside Inn on Resy →</a>
       </li>
       <li>
-        <div class="res-head"><span><a class="maploc" href="https://maps.apple.com/?q=PepeNero,+Traverse+City,+MI" target="_blank" rel="noopener">PepeNero</a></span><span class="pill backup">backup</span></div>
-        <div class="res-sub">Sat, Sep 5 · 6:30 PM · 2 guests · Outdoor seating · Resy</div>
-        <div class="res-cancel">Cancel by Fri, Sep 4, 4:30 PM — after that, $25 + tax/guest</div>
+        <div class="res-head"><span><a class="maploc" href="https://maps.apple.com/?q=VI+Grill,+Suttons+Bay,+MI" target="_blank" rel="noopener">VI Grill</a></span><span class="pill backup">walk-in</span></div>
+        <div class="res-sub">Suttons Bay · daily 11 AM–10 PM, kitchen till 10 · (231) 271-3300</div>
+        <div class="res-cancel">Check the wait online — or just call, they take phone reservations too</div>
+      </li>
+      <li>
+        <div class="res-head"><span><a class="maploc" href="https://maps.apple.com/?q=Gilchrist+Farm,+Suttons+Bay,+MI" target="_blank" rel="noopener">Gilchrist Farm</a></span><span class="pill backup">backup</span></div>
+        <div class="res-sub">Suttons Bay · Fri–Sat 12–8 PM · farm-to-table + winery · (231) 916-3902</div>
+        <div class="res-cancel">Closes at 8 — early dinner or nothing. Call to book.</div>
       </li>
       <li>
         <div class="res-head"><span><a class="maploc" href="https://maps.apple.com/?q=Trattoria+Stella,+Traverse+City,+MI" target="_blank" rel="noopener">Trattoria Stella</a></span><span class="pill confirmed">confirmed</span></div>
